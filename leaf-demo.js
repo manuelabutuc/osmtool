@@ -11,13 +11,13 @@ L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 var myURL = jQuery( 'script[src$="leaf-demo.js"]' ).attr( 'src' ).replace( 'leaf-demo.js', '' );
 
-var myIcon = L.icon({
-  iconUrl: myURL + 'images/pin24.png',
-  iconRetinaUrl: myURL + 'images/pin48.png',
-  iconSize: [29, 24],
-  iconAnchor: [9, 21],
-  popupAnchor: [0, -14]
-});
+//var myIcon = L.icon({
+//iconUrl: myURL + 'images/pin24.png',
+//  iconRetinaUrl: myURL + 'images/pin48.png',
+//  iconSize: [29, 24],
+//  iconAnchor: [9, 21],
+//  popupAnchor: [0, -14]
+//});
 
 //var geojsonMarkerOptions = {
 //    radius: 8,
