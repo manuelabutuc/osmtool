@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>OSM QA tool</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+        <link rel="stylesheet" type="text/css" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+
+        <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js'></script>
+        <script type='text/javascript' src='http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js'></script>
+    
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    </head>
+
+    <body>
+  
+    <div class="container-fluid" >
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-inverse navbar-fixed-top">
+                    <div class="navbar-header">
+                        <a class="navbar-brand"><span class="glyphicon glyphicon-globe"></span>   OpenStreetMap QA tool</a>
+                    </div>
+                    <div id="navbar" class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <br><br>
+        </div>
+    
+        <div class="row">
+            <div id="panel" class="col-md-3" style="margin-top:7px;height: 599px;  border: 1px solid #AAA;">
+        
+                <h4><b>To fix:</b></h4>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="">Roundabouts missing proper tag</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="">Duplicated ways</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="">Orphan nodes</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="">Orphan ways</label>
+                </div>
+            </div>
+    
+            <div id="map" class="col-md-9" style="margin-top:7px; height: 599px; border: 1px solid #AAA;"></div>
+        </div>
+        <footer class="footer">
+            <p class="text-muted" style="height:9px">2016 | designed and developed by <a href="https://ro.linkedin.com/in/butuc-manuela-23b4a966" target='_blank'>Manuela Butuc</a></p>
+        </footer>
+    </div>
+
+    <script type='text/javascript' src='maps/markers.geojson'></script>
+    <script type='text/javascript' src='maps/leaf-demo.js'></script>
+    </body>
+</html>

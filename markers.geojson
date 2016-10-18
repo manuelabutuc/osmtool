@@ -1,0 +1,362 @@
+ var markers=[
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.408003,
+          43.489775
+        ]
+      },
+      "properties": {
+        "cartodb_id": 1,
+        "oneway": false,
+        "id": 326806794,
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=326806794#map=43.4897747761881\/-83.408002884115",
+        "lng": 43.489774776188,
+        "lat": -83.408002884115
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.645904,
+          29.622054
+        ]
+      },
+      "properties": {
+        "cartodb_id": 2,
+        "oneway": true,
+        "id": 328259198,
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=328259198#map=29.6220541571092\/-95.6459042824135",
+        "lng": 29.622054157109,
+        "lat": -95.645904282413
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.07539,
+          26.710227
+        ]
+      },
+      "properties": {
+        "cartodb_id": 3,
+        "oneway": true,
+        "id": 334318070,
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=334318070#map=26.7102265126692\/-80.0753896808911",
+        "lng": 26.710226512669,
+        "lat": -80.075389680891
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.718629,
+          21.156716
+        ]
+      },
+      "properties": {
+        "cartodb_id": 4,
+        "oneway": false,
+        "id": 335754822,
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=335754822#map=21.1567158207123\/-101.718628715624",
+        "lng": 21.156715820712,
+        "lat": -101.71862871562
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.280671,
+          19.393576
+        ]
+      },
+      "properties": {
+        "cartodb_id": 5,
+        "oneway": true,
+        "id": 337998049,
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=337998049#map=19.3935755694719\/-99.2806711857853",
+        "lng": 19.393575569472,
+        "lat": -99.280671185785
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.230134,
+          43.628841
+        ]
+      },
+      "properties": {
+        "cartodb_id": 19,
+        "oneway": false,
+        "id": 395211561,
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=395211561#map=43.6288406839515\/-116.230133580536",
+        "lng": 43.628840683952,
+        "lat": -116.23013358054
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.079738,
+          35.891768
+        ]
+      },
+      "properties": {
+        "cartodb_id": 20,
+        "oneway": true,
+        "id": 404309936,
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=404309936#map=35.8917675314477\/-79.0797378102034",
+        "lng": 35.891767531448,
+        "lat": -79.079737810203
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.959081,
+          43.84205
+        ]
+      },
+      "properties": {
+        "cartodb_id": 21,
+        "oneway": false,
+        "id": 414288691,
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=414288691#map=43.8420501164299\/-79.9590813302504",
+        "lng": 43.84205011643,
+        "lat": -79.95908133025
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.396064,
+          42.496126
+        ]
+      },
+      "properties": {
+        "cartodb_id": 22,
+        "oneway": false,
+        "id": 423139300,
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=423139300#map=42.4961258831558\/-83.3960638347934",
+        "lng": 42.496125883156,
+        "lat": -83.396063834793
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.731328,
+          41.815525
+        ]
+      },
+      "properties": {
+        "cartodb_id": 32,
+        "oneway": false,
+        "id": 17189477,
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=17189477#map=41.8155247437812\/-72.7313280431506",
+        "lng": 41.815524743781,
+        "lat": -72.731328043151
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.599375,
+          42.105696
+        ]
+      },
+      "properties": {
+        "cartodb_id": 33,
+        "oneway": false,
+        "id": 20078297,
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=20078297#map=42.1056961826954\/-73.5993751261324",
+        "lng": 42.105696182695,
+        "lat": -73.599375126132
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.035353,
+          39.93038
+        ]
+      },
+      "properties": {
+        "cartodb_id": 34,
+        "oneway": true,
+        "id": 29777066,
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=29777066#map=39.9303796059151\/-75.0353533918286",
+        "lng": 39.930379605915,
+        "lat": -75.035353391829
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.285369,
+          19.056451
+        ]
+      },
+      "properties": {
+        "cartodb_id": 35,
+        "oneway": false,
+        "id": 42555377,
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=42555377#map=19.0564510626841\/-98.2853686518493",
+        "lng": 19.056451062684,
+        "lat": -98.285368651849
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.48607,
+          40.067171
+        ]
+      },
+      "properties": {
+        "cartodb_id": 6,
+        "oneway": false,
+        "id": 338883794,
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=338883794#map=40.0671713415163\/-82.4860697556243",
+        "lng": 40.067171341516,
+        "lat": -82.486069755624
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.068903,
+          38.744837
+        ]
+      },
+      "properties": {
+        "cartodb_id": 7,
+        "oneway": false,
+        "id": 340444974,
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=340444974#map=38.7448367319022\/-76.0689029683606",
+        "lng": 38.744836731902,
+        "lat": -76.068902968361
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.071375,
+          32.38963
+        ]
+      },
+      "properties": {
+        "cartodb_id": 8,
+        "oneway": true,
+        "id": 351042798,
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=351042798#map=32.3896302820272\/-117.071374551404",
+        "lng": 32.389630282027,
+        "lat": -117.0713745514
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.488214,
+          31.202893
+        ]
+      },
+      "properties": {
+        "cartodb_id": 9,
+        "oneway": false,
+        "id": 351522362,
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=351522362#map=31.2028933904115\/-81.4882135768563",
+        "lng": 31.202893390412,
+        "lat": -81.488213576856
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.027358,
+          37.262068
+        ]
+      },
+      "properties": {
+        "cartodb_id": 10,
+        "oneway": false,
+        "id": 353040207,
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=353040207#map=37.2620680456928\/-122.027357960958",
+        "lng": 37.262068045693,
+        "lat": -122.02735796096
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.688464,
+          33.103268
+        ]
+      },
+      "properties": {
+        "cartodb_id": 13,
+        "oneway": false,
+        "id": 366861748,
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=366861748#map=33.1032681341358\/-96.6884635335701",
+        "lng": 33.103268134136,
+        "lat": -96.68846353357
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.684714,
+          39.158559
+        ]
+      },
+      "properties": {
+        "cartodb_id": 14,
+        "oneway": true,
+        "id": 371356811,
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=371356811#map=39.1585593847408\/-76.6847135407725",
+        "lng": 39.158559384741,
+        "lat": -76.684713540773
+      }
+    }
+  ];
