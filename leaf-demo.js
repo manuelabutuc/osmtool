@@ -1,7 +1,7 @@
 var map = L.map( 'map', {
-  center: [35.0, 5.0],
+  center: [46.0, 25.0],
   minZoom: 2,
-  zoom: 2
+  zoom: 7
 });
 
 L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -28,17 +28,18 @@ var myURL = jQuery( 'script[src$="leaf-demo.js"]' ).attr( 'src' ).replace( 'leaf
 //    fillOpacity: 0.8
 //};
 
-function onEachFeature(markers, layer) {
+function onEachFeature(possible_roundabouts, layer) {
 		var popupContent = 
-				"<p>"+ markers.properties.id+"</p>"
-                +"<p><a href="+markers.properties.url+" target='_blank'>"+"Edit in iD"+"</p>";
+				"<p>"+ possible_roundabouts.properties.type+"</p>"
+                +"<p><a href="+possible_roundabouts.properties.url+" target='_blank'>"+"Edit in iD"+"</a>"+" | " +"<a href="+possible_roundabouts.properties.josm+" target='_blank'>"+"Edit in JOSM"+"</p>";
                 
-if (markers.properties && markers.properties.url) {
+if (possible_roundabouts.properties && possible_roundabouts.properties.url) {
 			popupContent;
 		}
 		layer.bindPopup(popupContent);
         }
 
-L.geoJson(markers, {
+L.geoJson(possible_roundabouts, {
     onEachFeature: onEachFeature
 }).addTo(map);
+
