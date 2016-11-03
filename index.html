@@ -38,16 +38,16 @@
         
                 <h4><b>To fix:</b></h4>
                 <div class="checkbox">
-                    <label><input type="checkbox" id="but" onchange="doalert(this.id)" value="">Roundabouts missing proper tag</label>
+                    <label><input type="checkbox" id="layer1" onchange="doalert(this.id)" value="">Roundabouts missing proper tag</label>
                 </div>
                 <div class="checkbox">
-                    <label><input type="checkbox" value="">Duplicated ways</label>
+                    <label><input type="checkbox"  id="layer2" onchange="doalert(this.id)" value="">Duplicated ways</label>
                 </div>
                 <div class="checkbox">
-                    <label><input type="checkbox" value="">Orphan nodes</label>
+                    <label><input type="checkbox" id="layer3" onchange="doalert(this.id)" value="">Orphan nodes</label>
                 </div>
                 <div class="checkbox">
-                    <label><input type="checkbox" value="">Orphan ways</label>
+                    <label><input type="checkbox" id="layer4" onchange="doalert(this.id)" value="">Orphan ways</label>
                 </div>
             </div>
     
@@ -59,6 +59,7 @@
     </div>
 
     <script type='text/javascript' src='possible_roundabouts.geojson'></script>
+    <script type='text/javascript' src='markers.geojson'></script>
     <script type='text/javascript' src='leaf-demo.js'></script>
     </body>
 </html>
