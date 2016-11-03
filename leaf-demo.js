@@ -9,8 +9,15 @@ L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   subdomains: ['a', 'b', 'c']
 }).addTo( map );
 
-var myIcon = L.icon({
+var myIcon1 = L.icon({
   iconUrl:  'images/marker.png',
+  iconSize: [23, 30],
+  iconAnchor: [9, 21],
+  popupAnchor: [0, -14]
+});
+
+var myIcon2 = L.icon({
+  iconUrl:  'images/marker2.png',
   iconSize: [23, 30],
   iconAnchor: [9, 21],
   popupAnchor: [0, -14]
@@ -26,18 +33,56 @@ if (possible_roundabouts.properties && possible_roundabouts.properties.url) {
 		layer.bindPopup(popupContent);
         }
 
-   var myLayer=L.geoJson(possible_roundabouts, {
+        
+        
+   var myLayer1=L.geoJson(possible_roundabouts, {
     onEachFeature: onEachFeature,
     pointToLayer: function (feature, latlng) {
-        return L.marker(latlng,  {icon: myIcon});
+        return L.marker(latlng,  {icon: myIcon1});
     }
-    })     
-function doalert(id){
-  if(document.getElementById(id).checked) {
-    myLayer.addTo(map);
-  }else{
-    map.removeLayer(myLayer);
-  }
+    })  
+    
+    
+      var myLayer2 = L.geoJson(markers, {
+    onEachFeature: onEachFeature,
+    pointToLayer: function (feature, latlng) {
+        return L.marker(latlng,  {icon: myIcon2});
+    }
+    }) 
+    
+  
+
+    function doalert(id){
+    switch(id){
+        case 'layer1':
+            if(document.getElementById(id).checked) {
+                myLayer1.addTo(map);
+            }else{
+                map.removeLayer(myLayer1);
+                }
+                
+        case 'layer2':
+            if(document.getElementById(id).checked) {
+                myLayer2.addTo(map);
+            }else{
+                map.removeLayer(myLayer2);
+                }
+                
+        case 'layer3':
+            if(document.getElementById(id).checked) {
+                myLayer3.addTo(map);
+            }else{
+                map.removeLayer(myLayer3);
+                }
+                
+        case 'layer4':
+            if(document.getElementById(id).checked) {
+                myLayer4.addTo(map);
+            }else{
+                map.removeLayer(myLayer4);
+                }
+     }
+  
 }
 
 
