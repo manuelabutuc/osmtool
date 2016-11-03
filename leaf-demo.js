@@ -60,13 +60,14 @@ if (possible_roundabouts.properties && possible_roundabouts.properties.url) {
             }else{
                 map.removeLayer(myLayer1);
                 }
-                
+            break;  
         case 'layer2':
             if(document.getElementById(id).checked) {
                 myLayer2.addTo(map);
             }else{
                 map.removeLayer(myLayer2);
                 }
+            break;
                 
         case 'layer3':
             if(document.getElementById(id).checked) {
@@ -74,6 +75,7 @@ if (possible_roundabouts.properties && possible_roundabouts.properties.url) {
             }else{
                 map.removeLayer(myLayer3);
                 }
+            break;
                 
         case 'layer4':
             if(document.getElementById(id).checked) {
@@ -81,6 +83,8 @@ if (possible_roundabouts.properties && possible_roundabouts.properties.url) {
             }else{
                 map.removeLayer(myLayer4);
                 }
+            default :
+            break;
      }
   
 }
