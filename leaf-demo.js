@@ -46,7 +46,6 @@ var assignMarkers = function (markers){
 }
 
 
-
 var initMap = function(){
   L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
@@ -62,8 +61,8 @@ var composeUrlJOSM = function(bbox){
   return rootUrl+bboxUrl
 }
 
-//Create for each marker and edit in Id link
-function editInID(markers, layer) {
+//Create for each marker and edit
+function edit(markers, layer) {
   var josmUrl = "http://localhost:8111/load_object?new_layer=true&objects=w"+markers.properties.id
   var popupContent = "<p>"+ markers.properties.type+"</p>"
   +"<p><a href="+markers.properties.url+" target='_blank'>"+"Edit in iD"+"</a>"+" | " 
@@ -74,39 +73,11 @@ function editInID(markers, layer) {
   layer.bindPopup(popupContent);
 }
 
-var editInJOSM = function(feature,layer){
-  bbox = feature['bbox']
-  var url = composeUrlJOSM(bbox)
-  var htmlMarkup = '<p><a href ="'+url+'">Edit in JOSM</a></p>'
-  layer.bindPopup(htmlMarkup)
-}
-
-var getMapBounds = function(callback){
-  map.on('dragend',function(){
-    var east = map.getBounds().getEast()
-    var west = map.getBounds().getWest()
-    var south = map.getBounds().getSouth()
-    var north = map.getBounds().getNorth()
-    bbox = {'west':west,'east':east,'south':south,'north':north}
-    callback(bbox)
-  })
-}
-
-var returnBounds = function(bbox){
-  geometries = []
-  for(key in possible_roundabouts){
-    if(possible_roundabouts.hasOwnProperty(key)){
-       possible_roundabouts[key]['bbox'] = bbox
-       geometries.push(possible_roundabouts[key]) 
-    }
-  }
-  markerMappings = assignMarkers(geometries)
-  
-}
+markerMappings = assignMarkers(possible_roundabouts)
 
 var addToMapGeoJsonLayer = function(geojson,type){
     var geojsonLayer = L.geoJson(geojson, {
-      onEachFeature: editInID,
+      onEachFeature: edit,
       pointToLayer:function(feature,latlng){
         return L.marker(latlng,{
           icon:iconMappings[type]
@@ -117,14 +88,6 @@ var addToMapGeoJsonLayer = function(geojson,type){
   return geojsonLayer 
 }
 
-//var removeJsonLayer = function(mar)
-
-var clearLayers = function(){
-    map.eachLayer(function (layer) {
-    map.removeLayer(layer);
-  });
-}
-
 var clearMap = function(layers){
   layers.forEach(function(layer){
     map.removeLayer(layer)
@@ -132,13 +95,11 @@ var clearMap = function(layers){
   layers = []
 }
 
-getMapBounds(returnBounds)
 map.fire('dragend')
 
 $(function(){
    addedLayers = []
    $("#panel").click(function(){
-     //clearLayers()
      clearMap(addedLayers)
      initMap()
      checkedValues = []
