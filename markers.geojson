@@ -1,56 +1,37 @@
- var markers=[
+var markers=[
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.408003,
-          43.489775
+          22.905544,
+          45.751794
         ]
       },
       "properties": {
         "cartodb_id": 1,
-        "oneway": false,
-        "id": 326806794,
-        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=326806794#map=43.4897747761881\/-83.408002884115",
-        "lng": 43.489774776188,
-        "lat": -83.408002884115
+        "id": "32064444",
+        "type": "Roundabout missing 'junction'='roundabout' tag",
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=32064444",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w32064444"
       }
     },
+  
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.645904,
-          29.622054
-        ]
-      },
-      "properties": {
-        "cartodb_id": 2,
-        "oneway": true,
-        "id": 328259198,
-        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=328259198#map=29.6220541571092\/-95.6459042824135",
-        "lng": 29.622054157109,
-        "lat": -95.645904282413
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.07539,
-          26.710227
+          26.070364,
+          44.474485
         ]
       },
       "properties": {
         "cartodb_id": 3,
-        "oneway": true,
-        "id": 334318070,
-        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=334318070#map=26.7102265126692\/-80.0753896808911",
-        "lng": 26.710226512669,
-        "lat": -80.075389680891
+        "id": "295119676",
+        "type": "Roundabout missing 'junction'='roundabout' tag",
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=295119676",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w295119676"
       }
     },
     {
@@ -58,17 +39,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.718629,
-          21.156716
+          24.934768,
+          44.946148
         ]
       },
       "properties": {
         "cartodb_id": 4,
-        "oneway": false,
-        "id": 335754822,
-        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=335754822#map=21.1567158207123\/-101.718628715624",
-        "lng": 21.156715820712,
-        "lat": -101.71862871562
+        "id": "417527776",
+        "type": "Roundabout missing 'junction'='roundabout' tag",
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=417527776",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w417527776"
       }
     },
     {
@@ -76,17 +56,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.280671,
-          19.393576
+          25.083669,
+          44.456088
         ]
       },
       "properties": {
-        "cartodb_id": 5,
-        "oneway": true,
-        "id": 337998049,
-        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=337998049#map=19.3935755694719\/-99.2806711857853",
-        "lng": 19.393575569472,
-        "lat": -99.280671185785
+        "cartodb_id": 11,
+        "id": "23611170",
+        "type": "Roundabout missing 'junction'='roundabout' tag",
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=23611170",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w23611170"
       }
     },
     {
@@ -94,17 +73,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.230134,
-          43.628841
+          25.602983,
+          45.652414
         ]
       },
       "properties": {
-        "cartodb_id": 19,
-        "oneway": false,
-        "id": 395211561,
-        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=395211561#map=43.6288406839515\/-116.230133580536",
-        "lng": 43.628840683952,
-        "lat": -116.23013358054
+        "cartodb_id": 12,
+        "id": "24409484",
+        "type": "Roundabout missing 'junction'='roundabout' tag",
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=24409484",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w24409484"
       }
     },
     {
@@ -112,251 +90,425 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -79.079738,
-          35.891768
-        ]
-      },
-      "properties": {
-        "cartodb_id": 20,
-        "oneway": true,
-        "id": 404309936,
-        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=404309936#map=35.8917675314477\/-79.0797378102034",
-        "lng": 35.891767531448,
-        "lat": -79.079737810203
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.959081,
-          43.84205
-        ]
-      },
-      "properties": {
-        "cartodb_id": 21,
-        "oneway": false,
-        "id": 414288691,
-        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=414288691#map=43.8420501164299\/-79.9590813302504",
-        "lng": 43.84205011643,
-        "lat": -79.95908133025
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.396064,
-          42.496126
-        ]
-      },
-      "properties": {
-        "cartodb_id": 22,
-        "oneway": false,
-        "id": 423139300,
-        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=423139300#map=42.4961258831558\/-83.3960638347934",
-        "lng": 42.496125883156,
-        "lat": -83.396063834793
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -72.731328,
-          41.815525
-        ]
-      },
-      "properties": {
-        "cartodb_id": 32,
-        "oneway": false,
-        "id": 17189477,
-        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=17189477#map=41.8155247437812\/-72.7313280431506",
-        "lng": 41.815524743781,
-        "lat": -72.731328043151
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.599375,
-          42.105696
-        ]
-      },
-      "properties": {
-        "cartodb_id": 33,
-        "oneway": false,
-        "id": 20078297,
-        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=20078297#map=42.1056961826954\/-73.5993751261324",
-        "lng": 42.105696182695,
-        "lat": -73.599375126132
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.035353,
-          39.93038
-        ]
-      },
-      "properties": {
-        "cartodb_id": 34,
-        "oneway": true,
-        "id": 29777066,
-        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=29777066#map=39.9303796059151\/-75.0353533918286",
-        "lng": 39.930379605915,
-        "lat": -75.035353391829
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.285369,
-          19.056451
-        ]
-      },
-      "properties": {
-        "cartodb_id": 35,
-        "oneway": false,
-        "id": 42555377,
-        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=42555377#map=19.0564510626841\/-98.2853686518493",
-        "lng": 19.056451062684,
-        "lat": -98.285368651849
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.48607,
-          40.067171
-        ]
-      },
-      "properties": {
-        "cartodb_id": 6,
-        "oneway": false,
-        "id": 338883794,
-        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=338883794#map=40.0671713415163\/-82.4860697556243",
-        "lng": 40.067171341516,
-        "lat": -82.486069755624
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.068903,
-          38.744837
-        ]
-      },
-      "properties": {
-        "cartodb_id": 7,
-        "oneway": false,
-        "id": 340444974,
-        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=340444974#map=38.7448367319022\/-76.0689029683606",
-        "lng": 38.744836731902,
-        "lat": -76.068902968361
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.071375,
-          32.38963
-        ]
-      },
-      "properties": {
-        "cartodb_id": 8,
-        "oneway": true,
-        "id": 351042798,
-        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=351042798#map=32.3896302820272\/-117.071374551404",
-        "lng": 32.389630282027,
-        "lat": -117.0713745514
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.488214,
-          31.202893
-        ]
-      },
-      "properties": {
-        "cartodb_id": 9,
-        "oneway": false,
-        "id": 351522362,
-        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=351522362#map=31.2028933904115\/-81.4882135768563",
-        "lng": 31.202893390412,
-        "lat": -81.488213576856
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.027358,
-          37.262068
-        ]
-      },
-      "properties": {
-        "cartodb_id": 10,
-        "oneway": false,
-        "id": 353040207,
-        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=353040207#map=37.2620680456928\/-122.027357960958",
-        "lng": 37.262068045693,
-        "lat": -122.02735796096
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -96.688464,
-          33.103268
-        ]
-      },
-      "properties": {
-        "cartodb_id": 13,
-        "oneway": false,
-        "id": 366861748,
-        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=366861748#map=33.1032681341358\/-96.6884635335701",
-        "lng": 33.103268134136,
-        "lat": -96.68846353357
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.684714,
-          39.158559
+          22.01291,
+          45.868519
         ]
       },
       "properties": {
         "cartodb_id": 14,
-        "oneway": true,
-        "id": 371356811,
-        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=371356811#map=39.1585593847408\/-76.6847135407725",
-        "lng": 39.158559384741,
-        "lat": -76.684713540773
+        "id": "28018529",
+        "type": "Roundabout missing 'junction'='roundabout' tag",
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=28018529",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w28018529"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.913982,
+          46.565547
+        ]
+      },
+      "properties": {
+        "cartodb_id": 15,
+        "id": "28832983",
+        "type": "Roundabout missing 'junction'='roundabout' tag",
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=28832983",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w28832983"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.033478,
+          45.442737
+        ]
+      },
+      "properties": {
+        "cartodb_id": 16,
+        "id": "35415234",
+        "type": "Roundabout missing 'junction'='roundabout' tag",
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=35415234",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w35415234"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.040487,
+          45.461129
+        ]
+      },
+      "properties": {
+        "cartodb_id": 17,
+        "id": "44698445",
+        "type": "Roundabout missing 'junction'='roundabout' tag",
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=44698445",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w44698445"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.099971,
+          44.44549
+        ]
+      },
+      "properties": {
+        "cartodb_id": 18,
+        "id": "69546523",
+        "type": "Roundabout missing 'junction'='roundabout' tag",
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=69546523",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w69546523"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.618989,
+          44.260752
+        ]
+      },
+      "properties": {
+        "cartodb_id": 19,
+        "id": "98512795",
+        "type": "Roundabout missing 'junction'='roundabout' tag",
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=98512795",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w98512795"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.648973,
+          44.182083
+        ]
+      },
+      "properties": {
+        "cartodb_id": 20,
+        "id": "107180914",
+        "type": "Roundabout missing 'junction'='roundabout' tag",
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=107180914",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w107180914"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.948699,
+          44.941056
+        ]
+      },
+      "properties": {
+        "cartodb_id": 25,
+        "id": "180020747",
+        "type": "Roundabout missing 'junction'='roundabout' tag",
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=180020747",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w180020747"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.828788,
+          47.108084
+        ]
+      },
+      "properties": {
+        "cartodb_id": 26,
+        "id": "190108978",
+        "type": "Roundabout missing 'junction'='roundabout' tag",
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=190108978",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w190108978"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.940843,
+          47.030549
+        ]
+      },
+      "properties": {
+        "cartodb_id": 27,
+        "id": "191199953",
+        "type": "Roundabout missing 'junction'='roundabout' tag",
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=191199953",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w191199953"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.64767,
+          47.73687
+        ]
+      },
+      "properties": {
+        "cartodb_id": 28,
+        "id": "191992510",
+        "type": "Roundabout missing 'junction'='roundabout' tag",
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=191992510",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w191992510"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.320331,
+          45.809713
+        ]
+      },
+      "properties": {
+        "cartodb_id": 29,
+        "id": "197247090",
+        "type": "Roundabout missing 'junction'='roundabout' tag",
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=197247090",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w197247090"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.150873,
+          45.761559
+        ]
+      },
+      "properties": {
+        "cartodb_id": 5,
+        "id": "420904914",
+        "type": "Roundabout missing 'junction'='roundabout' tag",
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=420904914",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w420904914"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.190861,
+          46.250197
+        ]
+      },
+      "properties": {
+        "cartodb_id": 6,
+        "id": "423593755",
+        "type": "Roundabout missing 'junction'='roundabout' tag",
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=423593755",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w423593755"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.241349,
+          45.778313
+        ]
+      },
+      "properties": {
+        "cartodb_id": 7,
+        "id": "424950930",
+        "type": "Roundabout missing 'junction'='roundabout' tag",
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=424950930",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w424950930"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.659435,
+          47.734262
+        ]
+      },
+      "properties": {
+        "cartodb_id": 8,
+        "id": "427578551",
+        "type": "Roundabout missing 'junction'='roundabout' tag",
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=427578551",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w427578551"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.050654,
+          45.276469
+        ]
+      },
+      "properties": {
+        "cartodb_id": 9,
+        "id": "228671130",
+        "type": "Roundabout missing 'junction'='roundabout' tag",
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=228671130",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w228671130"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.681715,
+          45.041279
+        ]
+      },
+      "properties": {
+        "cartodb_id": 21,
+        "id": "121830766",
+        "type": "Roundabout missing 'junction'='roundabout' tag",
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=121830766",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w121830766"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.920981,
+          46.173438
+        ]
+      },
+      "properties": {
+        "cartodb_id": 30,
+        "id": "202168402",
+        "type": "Roundabout missing 'junction'='roundabout' tag",
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=202168402",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w202168402"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.264823,
+          45.737993
+        ]
+      },
+      "properties": {
+        "cartodb_id": 31,
+        "id": "207600238",
+        "type": "Roundabout missing 'junction'='roundabout' tag",
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=207600238",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w207600238"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.570257,
+          47.165866
+        ]
+      },
+      "properties": {
+        "cartodb_id": 32,
+        "id": "210447195",
+        "type": "Roundabout missing 'junction'='roundabout' tag",
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=210447195",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w210447195"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.603234,
+          47.203716
+        ]
+      },
+      "properties": {
+        "cartodb_id": 33,
+        "id": "217189365",
+        "type": "Roundabout missing 'junction'='roundabout' tag",
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=217189365",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w217189365"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.928794,
+          44.951143
+        ]
+      },
+      "properties": {
+        "cartodb_id": 34,
+        "id": "217556216",
+        "type": "Roundabout missing 'junction'='roundabout' tag",
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=217556216",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w217556216"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.558878,
+          46.096799
+        ]
+      },
+      "properties": {
+        "cartodb_id": 35,
+        "id": "218578874",
+        "type": "Roundabout missing 'junction'='roundabout' tag",
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=218578874",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w218578874"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.018392,
+          44.492958
+        ]
+      },
+      "properties": {
+        "cartodb_id": 36,
+        "id": "219056357",
+        "type": "Roundabout missing 'junction'='roundabout' tag",
+        "url": "http:\/\/www.openstreetmap.org\/edit?editor=id&way=219056357",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w219056357"
       }
     }
-  ];
+  
+  ]
