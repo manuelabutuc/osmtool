@@ -1,0 +1,6 @@
+create table untagged_ways as(
+SELECT  *
+FROM    ways
+WHERE tags IS NULL OR tags = '' AND  id NOT IN (SELECT member_id FROM relation_members));
+
+delete from  untagged_ways where ST_IsClosed(linestring)='t';
