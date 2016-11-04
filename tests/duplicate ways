@@ -1,0 +1,12 @@
+create table duplic as (SELECT a.*
+FROM ways a, ways b
+WHERE ST_Equals(a.linestring, b.linestring)
+and a.id <> b.id
+AND  a.tags=b.tags);
+
+create table duplicates as (select * from dup1 
+where  dup1.id 
+NOT IN (SELECT member_id FROM relation_members)
+and ST_IsClosed(linestring)='f');
+
+drop table duplic;
