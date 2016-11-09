@@ -1,0 +1,6 @@
+create table overlapping_buildings as (SELECT a.*
+FROM ways a, ways b
+WHERE ST_Contains(a.linestring, b.linestring)
+and a.id<>b.id
+and a.tags->'building'='yes');
+
