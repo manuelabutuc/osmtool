@@ -38,16 +38,16 @@
         
                 <h4><b>What do you want to fix?</b></h4>
                 <div class="checkbox">
-                    <label><input type="checkbox" id="layer1" onchange="doalert(this.id)" value=""><img src='images/marker1.png' height='20px'>Roundabouts missing proper tag</label>
+                    <label><input type="checkbox" id="layer1" onchange="showOnMap(this.id)" value=""><img src='images/marker1.png' height='20px'>Roundabouts missing proper tag</label>
                 </div>
                 <div class="checkbox">
-                    <label><input type="checkbox"  id="layer2" onchange="doalert(this.id)" value=""><img src='images/marker2.png' height='20px'>Duplicated ways</label>
+                    <label><input type="checkbox"  id="layer2" onchange="showOnMap(this.id)" value=""><img src='images/marker2.png' height='20px'>Duplicated ways</label>
                 </div>
                 <div class="checkbox">
-                    <label><input type="checkbox" id="layer3" onchange="doalert(this.id)" value=""><img src='images/marker3.png' height='20px'>Orphan nodes</label>
+                    <label><input type="checkbox" id="layer3" onchange="showOnMap(this.id)" value=""><img src='images/marker3.png' height='20px'>Orphan nodes</label>
                 </div>
                 <div class="checkbox">
-                    <label><input type="checkbox" id="layer4" onchange="doalert(this.id)" value=""><img src='images/marker4.png' height='20px'>Orphan ways</label>
+                    <label><input type="checkbox" id="layer4" onchange="showOnMap(this.id)" value=""><img src='images/marker4.png' height='20px'>Orphan ways</label>
                 </div>
             </div>
     
@@ -58,10 +58,10 @@
         </footer>
     </div>
 
-    <script type='text/javascript' src='possible_roundabouts.geojson'></script>
-    <script type='text/javascript' src='markers.geojson'></script>
-    <script type='text/javascript' src='untagged_ways.geojson'></script>
-    <script type='text/javascript' src='duplicates.geojson'></script>
+    <script type='text/javascript' src='db/possible_roundabouts.geojson'></script>
+    <script type='text/javascript' src='db/overlapping_buildings.geojson'></script>
+    <script type='text/javascript' src='db/untagged_ways.geojson'></script>
+    <script type='text/javascript' src='db/duplicates.geojson'></script>
     <script type='text/javascript' src='leaf-demo.js'></script>
     </body>
 </html>
