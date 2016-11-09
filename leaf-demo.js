@@ -10,7 +10,7 @@ L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo( map );
 
 var myIcon1 = L.icon({
-  iconUrl:  'images/marker.png',
+  iconUrl:  'images/marker1.png',
   iconSize: [23, 30],
   iconAnchor: [9, 21],
   popupAnchor: [0, -14]
@@ -23,6 +23,21 @@ var myIcon2 = L.icon({
   popupAnchor: [0, -14]
 });
 
+var myIcon3 = L.icon({
+  iconUrl:  'images/marker3.png',
+  iconSize: [23, 30],
+  iconAnchor: [9, 21],
+  popupAnchor: [0, -14]
+});
+
+var myIcon4 = L.icon({
+  iconUrl:  'images/marker4.png',
+  iconSize: [23, 30],
+  iconAnchor: [9, 21],
+  popupAnchor: [0, -14]
+});
+
+
 function onEachFeature(possible_roundabouts, layer) {
 		var popupContent = 
 				"<p>"+ possible_roundabouts.properties.type+"</p>"
@@ -33,8 +48,8 @@ if (possible_roundabouts.properties && possible_roundabouts.properties.url) {
 		layer.bindPopup(popupContent);
         }
 
-        
-        
+       
+       
    var myLayer1=L.geoJson(possible_roundabouts, {
     onEachFeature: onEachFeature,
     pointToLayer: function (feature, latlng) {
@@ -43,10 +58,24 @@ if (possible_roundabouts.properties && possible_roundabouts.properties.url) {
     })  
     
     
-      var myLayer2 = L.geoJson(markers, {
+      var myLayer2 = L.geoJson(duplicates, {
     onEachFeature: onEachFeature,
     pointToLayer: function (feature, latlng) {
         return L.marker(latlng,  {icon: myIcon2});
+    }
+    }) 
+    
+      var myLayer3 = L.geoJson(untagged_ways, {
+    onEachFeature: onEachFeature,
+    pointToLayer: function (feature, latlng) {
+        return L.marker(latlng,  {icon: myIcon3});
+    }
+    }) 
+    
+      var myLayer4 = L.geoJson(untagged_ways, {
+    onEachFeature: onEachFeature,
+    pointToLayer: function (feature, latlng) {
+        return L.marker(latlng,  {icon: myIcon4});
     }
     }) 
     
