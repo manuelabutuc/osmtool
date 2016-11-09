@@ -1,0 +1,6547 @@
+var untagged_ways = [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.743143,
+          47.572469
+        ]
+      },
+      "properties": {
+        "cartodb_id": 38,
+        "id": "296669653",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=296669653",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w296669653",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.740363,
+          47.57277
+        ]
+      },
+      "properties": {
+        "cartodb_id": 39,
+        "id": "296669654",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=296669654",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w296669654",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.335133,
+          44.189813
+        ]
+      },
+      "properties": {
+        "cartodb_id": 40,
+        "id": "296754475",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=296754475",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w296754475",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.336566,
+          44.189771
+        ]
+      },
+      "properties": {
+        "cartodb_id": 41,
+        "id": "296754476",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=296754476",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w296754476",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.334412,
+          44.189554
+        ]
+      },
+      "properties": {
+        "cartodb_id": 42,
+        "id": "296754483",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=296754483",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w296754483",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.543333,
+          46.551867
+        ]
+      },
+      "properties": {
+        "cartodb_id": 43,
+        "id": "297611756",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=297611756",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w297611756",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.597225,
+          48.185536
+        ]
+      },
+      "properties": {
+        "cartodb_id": 44,
+        "id": "297877268",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=297877268",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w297877268",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.955887,
+          43.835313
+        ]
+      },
+      "properties": {
+        "cartodb_id": 21,
+        "id": "252744935",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=252744935",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w252744935",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.874369,
+          45.705117
+        ]
+      },
+      "properties": {
+        "cartodb_id": 45,
+        "id": "300601963",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=300601963",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w300601963",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.76249,
+          47.572422
+        ]
+      },
+      "properties": {
+        "cartodb_id": 36,
+        "id": "296669431",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=296669431",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w296669431",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.756229,
+          47.571587
+        ]
+      },
+      "properties": {
+        "cartodb_id": 37,
+        "id": "296669471",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=296669471",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w296669471",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.740136,
+          45.168293
+        ]
+      },
+      "properties": {
+        "cartodb_id": 46,
+        "id": "300983333",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=300983333",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w300983333",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.790722,
+          47.181928
+        ]
+      },
+      "properties": {
+        "cartodb_id": 47,
+        "id": "301765328",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=301765328",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w301765328",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.954306,
+          43.847891
+        ]
+      },
+      "properties": {
+        "cartodb_id": 48,
+        "id": "303157348",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=303157348",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w303157348",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.94978,
+          43.85227
+        ]
+      },
+      "properties": {
+        "cartodb_id": 49,
+        "id": "303359852",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=303359852",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w303359852",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.764259,
+          46.284071
+        ]
+      },
+      "properties": {
+        "cartodb_id": 50,
+        "id": "304066541",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=304066541",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w304066541",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.950713,
+          43.847182
+        ]
+      },
+      "properties": {
+        "cartodb_id": 51,
+        "id": "314532966",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=314532966",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w314532966",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.950742,
+          43.847177
+        ]
+      },
+      "properties": {
+        "cartodb_id": 52,
+        "id": "314532967",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=314532967",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w314532967",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.58596,
+          47.152933
+        ]
+      },
+      "properties": {
+        "cartodb_id": 53,
+        "id": "306835106",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=306835106",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w306835106",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.933118,
+          46.185416
+        ]
+      },
+      "properties": {
+        "cartodb_id": 55,
+        "id": "310819098",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=310819098",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w310819098",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.799704,
+          47.215706
+        ]
+      },
+      "properties": {
+        "cartodb_id": 8,
+        "id": "160157263",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=160157263",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w160157263",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.456797,
+          46.41797
+        ]
+      },
+      "properties": {
+        "cartodb_id": 9,
+        "id": "164794774",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=164794774",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w164794774",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.802333,
+          47.217849
+        ]
+      },
+      "properties": {
+        "cartodb_id": 10,
+        "id": "169556664",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=169556664",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w169556664",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.799735,
+          47.21885
+        ]
+      },
+      "properties": {
+        "cartodb_id": 11,
+        "id": "180729637",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=180729637",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w180729637",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.954788,
+          43.849215
+        ]
+      },
+      "properties": {
+        "cartodb_id": 12,
+        "id": "176766805",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=176766805",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w176766805",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.954956,
+          43.849251
+        ]
+      },
+      "properties": {
+        "cartodb_id": 13,
+        "id": "176766810",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=176766810",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w176766810",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.977031,
+          43.849034
+        ]
+      },
+      "properties": {
+        "cartodb_id": 22,
+        "id": "256923580",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=256923580",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w256923580",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.9742,
+          43.854187
+        ]
+      },
+      "properties": {
+        "cartodb_id": 27,
+        "id": "295017000",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=295017000",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w295017000",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.975289,
+          43.854325
+        ]
+      },
+      "properties": {
+        "cartodb_id": 28,
+        "id": "295017001",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=295017001",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w295017001",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.436665,
+          46.597335
+        ]
+      },
+      "properties": {
+        "cartodb_id": 29,
+        "id": "295017691",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=295017691",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w295017691",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.431413,
+          46.605266
+        ]
+      },
+      "properties": {
+        "cartodb_id": 30,
+        "id": "295017693",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=295017693",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w295017693",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.888664,
+          47.937151
+        ]
+      },
+      "properties": {
+        "cartodb_id": 31,
+        "id": "295402662",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=295402662",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w295402662",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.810135,
+          46.15428
+        ]
+      },
+      "properties": {
+        "cartodb_id": 32,
+        "id": "295455693",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=295455693",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w295455693",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.595605,
+          48.185205
+        ]
+      },
+      "properties": {
+        "cartodb_id": 33,
+        "id": "296426196",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=296426196",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w296426196",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.805901,
+          47.587823
+        ]
+      },
+      "properties": {
+        "cartodb_id": 34,
+        "id": "296668617",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=296668617",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w296668617",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.812669,
+          46.242288
+        ]
+      },
+      "properties": {
+        "cartodb_id": 56,
+        "id": "312714897",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=312714897",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w312714897",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.665256,
+          45.764995
+        ]
+      },
+      "properties": {
+        "cartodb_id": 57,
+        "id": "312812377",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=312812377",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w312812377",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.098585,
+          45.509797
+        ]
+      },
+      "properties": {
+        "cartodb_id": 58,
+        "id": "313156544",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=313156544",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w313156544",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.255864,
+          45.550504
+        ]
+      },
+      "properties": {
+        "cartodb_id": 59,
+        "id": "313704502",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=313704502",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w313704502",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.256576,
+          45.550975
+        ]
+      },
+      "properties": {
+        "cartodb_id": 60,
+        "id": "313704504",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=313704504",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w313704504",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.257508,
+          45.551608
+        ]
+      },
+      "properties": {
+        "cartodb_id": 61,
+        "id": "313704505",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=313704505",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w313704505",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.261777,
+          45.552483
+        ]
+      },
+      "properties": {
+        "cartodb_id": 62,
+        "id": "313704507",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=313704507",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w313704507",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.264169,
+          45.551797
+        ]
+      },
+      "properties": {
+        "cartodb_id": 63,
+        "id": "313704508",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=313704508",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w313704508",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.264346,
+          45.551684
+        ]
+      },
+      "properties": {
+        "cartodb_id": 64,
+        "id": "313704509",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=313704509",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w313704509",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.268633,
+          45.550489
+        ]
+      },
+      "properties": {
+        "cartodb_id": 65,
+        "id": "313704510",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=313704510",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w313704510",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.271265,
+          45.548386
+        ]
+      },
+      "properties": {
+        "cartodb_id": 66,
+        "id": "313704511",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=313704511",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w313704511",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.271873,
+          45.549645
+        ]
+      },
+      "properties": {
+        "cartodb_id": 67,
+        "id": "313704513",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=313704513",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w313704513",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.264548,
+          45.551496
+        ]
+      },
+      "properties": {
+        "cartodb_id": 68,
+        "id": "313704514",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=313704514",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w313704514",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.261053,
+          45.552653
+        ]
+      },
+      "properties": {
+        "cartodb_id": 69,
+        "id": "313704515",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=313704515",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w313704515",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.966096,
+          43.852196
+        ]
+      },
+      "properties": {
+        "cartodb_id": 6,
+        "id": "159302176",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=159302176",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w159302176",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.800015,
+          47.205491
+        ]
+      },
+      "properties": {
+        "cartodb_id": 7,
+        "id": "160132442",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=160132442",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w160132442",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.85427,
+          47.593683
+        ]
+      },
+      "properties": {
+        "cartodb_id": 73,
+        "id": "315524661",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=315524661",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w315524661",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.863142,
+          45.805865
+        ]
+      },
+      "properties": {
+        "cartodb_id": 74,
+        "id": "316692477",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=316692477",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w316692477",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.863415,
+          45.80675
+        ]
+      },
+      "properties": {
+        "cartodb_id": 75,
+        "id": "316692478",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=316692478",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w316692478",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.862823,
+          45.805974
+        ]
+      },
+      "properties": {
+        "cartodb_id": 76,
+        "id": "316692479",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=316692479",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w316692479",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.86319,
+          45.805072
+        ]
+      },
+      "properties": {
+        "cartodb_id": 77,
+        "id": "316692480",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=316692480",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w316692480",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.798159,
+          47.572599
+        ]
+      },
+      "properties": {
+        "cartodb_id": 35,
+        "id": "296668792",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=296668792",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w296668792",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.954486,
+          43.849121
+        ]
+      },
+      "properties": {
+        "cartodb_id": 54,
+        "id": "309032789",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=309032789",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w309032789",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.499009,
+          45.831986
+        ]
+      },
+      "properties": {
+        "cartodb_id": 78,
+        "id": "317208481",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=317208481",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w317208481",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.094936,
+          47.48414
+        ]
+      },
+      "properties": {
+        "cartodb_id": 79,
+        "id": "317225625",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=317225625",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w317225625",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.064785,
+          47.461649
+        ]
+      },
+      "properties": {
+        "cartodb_id": 80,
+        "id": "317225626",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=317225626",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w317225626",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.068959,
+          47.458967
+        ]
+      },
+      "properties": {
+        "cartodb_id": 81,
+        "id": "317225627",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=317225627",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w317225627",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.209805,
+          47.624266
+        ]
+      },
+      "properties": {
+        "cartodb_id": 82,
+        "id": "318480471",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=318480471",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w318480471",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.067187,
+          44.441965
+        ]
+      },
+      "properties": {
+        "cartodb_id": 83,
+        "id": "330131787",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=330131787",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w330131787",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.233767,
+          45.806601
+        ]
+      },
+      "properties": {
+        "cartodb_id": 84,
+        "id": "320264641",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=320264641",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w320264641",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.230903,
+          45.809168
+        ]
+      },
+      "properties": {
+        "cartodb_id": 85,
+        "id": "320266569",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=320266569",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w320266569",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.230327,
+          45.804019
+        ]
+      },
+      "properties": {
+        "cartodb_id": 86,
+        "id": "320272869",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=320272869",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w320272869",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.229669,
+          45.804825
+        ]
+      },
+      "properties": {
+        "cartodb_id": 87,
+        "id": "320272872",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=320272872",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w320272872",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.318179,
+          45.810055
+        ]
+      },
+      "properties": {
+        "cartodb_id": 88,
+        "id": "320305817",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=320305817",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w320305817",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.242248,
+          45.748348
+        ]
+      },
+      "properties": {
+        "cartodb_id": 89,
+        "id": "320411340",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=320411340",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w320411340",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.555289,
+          46.751289
+        ]
+      },
+      "properties": {
+        "cartodb_id": 90,
+        "id": "321419613",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=321419613",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w321419613",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.18685,
+          45.343226
+        ]
+      },
+      "properties": {
+        "cartodb_id": 91,
+        "id": "322275852",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=322275852",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w322275852",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.74174,
+          46.297377
+        ]
+      },
+      "properties": {
+        "cartodb_id": 92,
+        "id": "322312939",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=322312939",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w322312939",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.762358,
+          46.156759
+        ]
+      },
+      "properties": {
+        "cartodb_id": 93,
+        "id": "323241587",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=323241587",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w323241587",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.544527,
+          46.014367
+        ]
+      },
+      "properties": {
+        "cartodb_id": 94,
+        "id": "324194466",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=324194466",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w324194466",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.877353,
+          45.723549
+        ]
+      },
+      "properties": {
+        "cartodb_id": 95,
+        "id": "328739146",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=328739146",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w328739146",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.838444,
+          47.187237
+        ]
+      },
+      "properties": {
+        "cartodb_id": 96,
+        "id": "329664654",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=329664654",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w329664654",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.164618,
+          46.281815
+        ]
+      },
+      "properties": {
+        "cartodb_id": 97,
+        "id": "329761355",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=329761355",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w329761355",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.161701,
+          46.278662
+        ]
+      },
+      "properties": {
+        "cartodb_id": 98,
+        "id": "329762480",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=329762480",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w329762480",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.232236,
+          44.992
+        ]
+      },
+      "properties": {
+        "cartodb_id": 99,
+        "id": "330262221",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=330262221",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w330262221",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.232153,
+          44.992104
+        ]
+      },
+      "properties": {
+        "cartodb_id": 100,
+        "id": "330269742",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=330269742",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w330269742",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.155111,
+          46.213188
+        ]
+      },
+      "properties": {
+        "cartodb_id": 101,
+        "id": "330560881",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=330560881",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w330560881",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.233893,
+          44.991227
+        ]
+      },
+      "properties": {
+        "cartodb_id": 102,
+        "id": "330608069",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=330608069",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w330608069",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.959921,
+          45.265613
+        ]
+      },
+      "properties": {
+        "cartodb_id": 103,
+        "id": "330622355",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=330622355",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w330622355",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.318967,
+          46.495857
+        ]
+      },
+      "properties": {
+        "cartodb_id": 104,
+        "id": "330749734",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=330749734",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w330749734",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.485567,
+          46.528218
+        ]
+      },
+      "properties": {
+        "cartodb_id": 105,
+        "id": "331330057",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=331330057",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w331330057",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.596141,
+          46.41242
+        ]
+      },
+      "properties": {
+        "cartodb_id": 106,
+        "id": "331362439",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=331362439",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w331362439",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.526482,
+          43.771848
+        ]
+      },
+      "properties": {
+        "cartodb_id": 107,
+        "id": "334470677",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=334470677",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w334470677",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.055384,
+          47.19466
+        ]
+      },
+      "properties": {
+        "cartodb_id": 108,
+        "id": "335384893",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=335384893",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w335384893",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.314352,
+          45.071523
+        ]
+      },
+      "properties": {
+        "cartodb_id": 109,
+        "id": "335611038",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=335611038",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w335611038",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.80529,
+          44.323845
+        ]
+      },
+      "properties": {
+        "cartodb_id": 110,
+        "id": "337338954",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=337338954",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w337338954",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.795289,
+          46.365477
+        ]
+      },
+      "properties": {
+        "cartodb_id": 111,
+        "id": "337768997",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=337768997",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w337768997",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.614345,
+          46.101175
+        ]
+      },
+      "properties": {
+        "cartodb_id": 112,
+        "id": "340142085",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=340142085",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w340142085",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.439977,
+          45.935276
+        ]
+      },
+      "properties": {
+        "cartodb_id": 113,
+        "id": "340340471",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=340340471",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w340340471",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.320455,
+          45.727944
+        ]
+      },
+      "properties": {
+        "cartodb_id": 114,
+        "id": "342761367",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=342761367",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w342761367",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.852621,
+          45.615012
+        ]
+      },
+      "properties": {
+        "cartodb_id": 115,
+        "id": "344129584",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=344129584",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w344129584",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.764477,
+          45.06872
+        ]
+      },
+      "properties": {
+        "cartodb_id": 116,
+        "id": "344151801",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=344151801",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w344151801",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.531052,
+          46.396066
+        ]
+      },
+      "properties": {
+        "cartodb_id": 117,
+        "id": "344549914",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=344549914",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w344549914",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.469286,
+          46.332166
+        ]
+      },
+      "properties": {
+        "cartodb_id": 118,
+        "id": "344584913",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=344584913",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w344584913",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.109436,
+          45.973009
+        ]
+      },
+      "properties": {
+        "cartodb_id": 119,
+        "id": "345984731",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=345984731",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w345984731",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.05431,
+          45.953917
+        ]
+      },
+      "properties": {
+        "cartodb_id": 120,
+        "id": "345984737",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=345984737",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w345984737",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.055912,
+          45.950927
+        ]
+      },
+      "properties": {
+        "cartodb_id": 121,
+        "id": "345984738",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=345984738",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w345984738",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.05517,
+          46.030603
+        ]
+      },
+      "properties": {
+        "cartodb_id": 122,
+        "id": "345987316",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=345987316",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w345987316",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.502094,
+          46.415789
+        ]
+      },
+      "properties": {
+        "cartodb_id": 123,
+        "id": "346070275",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=346070275",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w346070275",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.909833,
+          45.804953
+        ]
+      },
+      "properties": {
+        "cartodb_id": 124,
+        "id": "346121569",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=346121569",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w346121569",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.503295,
+          46.190271
+        ]
+      },
+      "properties": {
+        "cartodb_id": 125,
+        "id": "346862472",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=346862472",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w346862472",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.514786,
+          46.193781
+        ]
+      },
+      "properties": {
+        "cartodb_id": 126,
+        "id": "347042183",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=347042183",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w347042183",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.549036,
+          46.285129
+        ]
+      },
+      "properties": {
+        "cartodb_id": 127,
+        "id": "349225339",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=349225339",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w349225339",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.006937,
+          44.792818
+        ]
+      },
+      "properties": {
+        "cartodb_id": 128,
+        "id": "351501548",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=351501548",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w351501548",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.794069,
+          46.872255
+        ]
+      },
+      "properties": {
+        "cartodb_id": 129,
+        "id": "352313653",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=352313653",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w352313653",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.173725,
+          46.275102
+        ]
+      },
+      "properties": {
+        "cartodb_id": 130,
+        "id": "352617346",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=352617346",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w352617346",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.177802,
+          46.276554
+        ]
+      },
+      "properties": {
+        "cartodb_id": 131,
+        "id": "352623876",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=352623876",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w352623876",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.953153,
+          47.981131
+        ]
+      },
+      "properties": {
+        "cartodb_id": 132,
+        "id": "353238693",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=353238693",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w353238693",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.951997,
+          47.974148
+        ]
+      },
+      "properties": {
+        "cartodb_id": 133,
+        "id": "353238695",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=353238695",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w353238695",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.954802,
+          47.977606
+        ]
+      },
+      "properties": {
+        "cartodb_id": 134,
+        "id": "353238697",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=353238697",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w353238697",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.057863,
+          44.446597
+        ]
+      },
+      "properties": {
+        "cartodb_id": 135,
+        "id": "356551237",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=356551237",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w356551237",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.423779,
+          46.164116
+        ]
+      },
+      "properties": {
+        "cartodb_id": 136,
+        "id": "359372277",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=359372277",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w359372277",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.937305,
+          47.052711
+        ]
+      },
+      "properties": {
+        "cartodb_id": 137,
+        "id": "359359979",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=359359979",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w359359979",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.543141,
+          45.531137
+        ]
+      },
+      "properties": {
+        "cartodb_id": 138,
+        "id": "361843207",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=361843207",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w361843207",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.800178,
+          45.126387
+        ]
+      },
+      "properties": {
+        "cartodb_id": 139,
+        "id": "362166873",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=362166873",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w362166873",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.223698,
+          45.076086
+        ]
+      },
+      "properties": {
+        "cartodb_id": 140,
+        "id": "362751117",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=362751117",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w362751117",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.065788,
+          45.058258
+        ]
+      },
+      "properties": {
+        "cartodb_id": 141,
+        "id": "362989868",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=362989868",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w362989868",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.967642,
+          46.088512
+        ]
+      },
+      "properties": {
+        "cartodb_id": 142,
+        "id": "363957551",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=363957551",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w363957551",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.491895,
+          46.096057
+        ]
+      },
+      "properties": {
+        "cartodb_id": 143,
+        "id": "363957556",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=363957556",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w363957556",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.592671,
+          46.151972
+        ]
+      },
+      "properties": {
+        "cartodb_id": 144,
+        "id": "363957584",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=363957584",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w363957584",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.705743,
+          45.19827
+        ]
+      },
+      "properties": {
+        "cartodb_id": 145,
+        "id": "364026416",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=364026416",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w364026416",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.006351,
+          46.135625
+        ]
+      },
+      "properties": {
+        "cartodb_id": 146,
+        "id": "363957647",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=363957647",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w363957647",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.808371,
+          47.793914
+        ]
+      },
+      "properties": {
+        "cartodb_id": 147,
+        "id": "364267440",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=364267440",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w364267440",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.804856,
+          47.211474
+        ]
+      },
+      "properties": {
+        "cartodb_id": 1,
+        "id": "44722465",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=44722465",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w44722465",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.806172,
+          47.216695
+        ]
+      },
+      "properties": {
+        "cartodb_id": 2,
+        "id": "44783114",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=44783114",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w44783114",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.796547,
+          47.22086
+        ]
+      },
+      "properties": {
+        "cartodb_id": 3,
+        "id": "44806874",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=44806874",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w44806874",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.803962,
+          47.21312
+        ]
+      },
+      "properties": {
+        "cartodb_id": 4,
+        "id": "44820005",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=44820005",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w44820005",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.592978,
+          44.293419
+        ]
+      },
+      "properties": {
+        "cartodb_id": 5,
+        "id": "125770542",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=125770542",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w125770542",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.805341,
+          47.794549
+        ]
+      },
+      "properties": {
+        "cartodb_id": 148,
+        "id": "364267441",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=364267441",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w364267441",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.58692,
+          46.103976
+        ]
+      },
+      "properties": {
+        "cartodb_id": 149,
+        "id": "365711774",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=365711774",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w365711774",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.910699,
+          46.402587
+        ]
+      },
+      "properties": {
+        "cartodb_id": 150,
+        "id": "367395644",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=367395644",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w367395644",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.385658,
+          45.784598
+        ]
+      },
+      "properties": {
+        "cartodb_id": 151,
+        "id": "371794022",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=371794022",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w371794022",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.386667,
+          45.758637
+        ]
+      },
+      "properties": {
+        "cartodb_id": 152,
+        "id": "371790971",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=371790971",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w371790971",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.870477,
+          44.440052
+        ]
+      },
+      "properties": {
+        "cartodb_id": 153,
+        "id": "372298407",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=372298407",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w372298407",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.955983,
+          43.848182
+        ]
+      },
+      "properties": {
+        "cartodb_id": 154,
+        "id": "373415640",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=373415640",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w373415640",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.494808,
+          44.19025
+        ]
+      },
+      "properties": {
+        "cartodb_id": 155,
+        "id": "374339297",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=374339297",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w374339297",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.834604,
+          46.375699
+        ]
+      },
+      "properties": {
+        "cartodb_id": 156,
+        "id": "376776556",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=376776556",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w376776556",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.200266,
+          45.73045
+        ]
+      },
+      "properties": {
+        "cartodb_id": 157,
+        "id": "377343913",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=377343913",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w377343913",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.146792,
+          44.561545
+        ]
+      },
+      "properties": {
+        "cartodb_id": 158,
+        "id": "379440804",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=379440804",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w379440804",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.441979,
+          44.476937
+        ]
+      },
+      "properties": {
+        "cartodb_id": 159,
+        "id": "379521641",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=379521641",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w379521641",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.54507,
+          46.559393
+        ]
+      },
+      "properties": {
+        "cartodb_id": 160,
+        "id": "379691522",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=379691522",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w379691522",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.545881,
+          46.557011
+        ]
+      },
+      "properties": {
+        "cartodb_id": 161,
+        "id": "379856072",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=379856072",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w379856072",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.546075,
+          46.556884
+        ]
+      },
+      "properties": {
+        "cartodb_id": 162,
+        "id": "379856073",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=379856073",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w379856073",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.546294,
+          46.559106
+        ]
+      },
+      "properties": {
+        "cartodb_id": 163,
+        "id": "379856079",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=379856079",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w379856079",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.543221,
+          46.561182
+        ]
+      },
+      "properties": {
+        "cartodb_id": 164,
+        "id": "379856087",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=379856087",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w379856087",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.543632,
+          46.561043
+        ]
+      },
+      "properties": {
+        "cartodb_id": 165,
+        "id": "379856088",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=379856088",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w379856088",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.543265,
+          46.560383
+        ]
+      },
+      "properties": {
+        "cartodb_id": 166,
+        "id": "379856089",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=379856089",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w379856089",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.544649,
+          46.56054
+        ]
+      },
+      "properties": {
+        "cartodb_id": 167,
+        "id": "379856093",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=379856093",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w379856093",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.544725,
+          46.560044
+        ]
+      },
+      "properties": {
+        "cartodb_id": 168,
+        "id": "379856094",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=379856094",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w379856094",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.544967,
+          46.560323
+        ]
+      },
+      "properties": {
+        "cartodb_id": 169,
+        "id": "379856095",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=379856095",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w379856095",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.543881,
+          46.560406
+        ]
+      },
+      "properties": {
+        "cartodb_id": 170,
+        "id": "379856103",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=379856103",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w379856103",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.544034,
+          46.560528
+        ]
+      },
+      "properties": {
+        "cartodb_id": 171,
+        "id": "379856104",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=379856104",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w379856104",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.544238,
+          46.560669
+        ]
+      },
+      "properties": {
+        "cartodb_id": 172,
+        "id": "379856105",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=379856105",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w379856105",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.542774,
+          46.560509
+        ]
+      },
+      "properties": {
+        "cartodb_id": 173,
+        "id": "379856106",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=379856106",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w379856106",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.542442,
+          46.56067
+        ]
+      },
+      "properties": {
+        "cartodb_id": 174,
+        "id": "379856107",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=379856107",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w379856107",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.265809,
+          47.176246
+        ]
+      },
+      "properties": {
+        "cartodb_id": 175,
+        "id": "379886382",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=379886382",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w379886382",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.48761,
+          46.739788
+        ]
+      },
+      "properties": {
+        "cartodb_id": 176,
+        "id": "381185382",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=381185382",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w381185382",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.336211,
+          47.207798
+        ]
+      },
+      "properties": {
+        "cartodb_id": 177,
+        "id": "383204666",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=383204666",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w383204666",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.281161,
+          47.196485
+        ]
+      },
+      "properties": {
+        "cartodb_id": 178,
+        "id": "383904305",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=383904305",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w383904305",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.229251,
+          47.116963
+        ]
+      },
+      "properties": {
+        "cartodb_id": 179,
+        "id": "383916297",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=383916297",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w383916297",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.954605,
+          43.847131
+        ]
+      },
+      "properties": {
+        "cartodb_id": 180,
+        "id": "383977254",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=383977254",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w383977254",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.115716,
+          47.097093
+        ]
+      },
+      "properties": {
+        "cartodb_id": 181,
+        "id": "384124118",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=384124118",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w384124118",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.207587,
+          44.405089
+        ]
+      },
+      "properties": {
+        "cartodb_id": 182,
+        "id": "384129170",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=384129170",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w384129170",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.416264,
+          47.209483
+        ]
+      },
+      "properties": {
+        "cartodb_id": 183,
+        "id": "384454800",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=384454800",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w384454800",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.425362,
+          47.206062
+        ]
+      },
+      "properties": {
+        "cartodb_id": 184,
+        "id": "384454801",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=384454801",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w384454801",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.494701,
+          47.168551
+        ]
+      },
+      "properties": {
+        "cartodb_id": 185,
+        "id": "384458982",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=384458982",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w384458982",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.619909,
+          45.271197
+        ]
+      },
+      "properties": {
+        "cartodb_id": 186,
+        "id": "384811164",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=384811164",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w384811164",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.486639,
+          46.808157
+        ]
+      },
+      "properties": {
+        "cartodb_id": 187,
+        "id": "384934978",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=384934978",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w384934978",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.490254,
+          46.804114
+        ]
+      },
+      "properties": {
+        "cartodb_id": 188,
+        "id": "384934980",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=384934980",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w384934980",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.485448,
+          46.809682
+        ]
+      },
+      "properties": {
+        "cartodb_id": 189,
+        "id": "384934982",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=384934982",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w384934982",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.432632,
+          46.78341
+        ]
+      },
+      "properties": {
+        "cartodb_id": 190,
+        "id": "384948723",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=384948723",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w384948723",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.839245,
+          46.93144
+        ]
+      },
+      "properties": {
+        "cartodb_id": 191,
+        "id": "385224622",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=385224622",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w385224622",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.816437,
+          46.878429
+        ]
+      },
+      "properties": {
+        "cartodb_id": 192,
+        "id": "385226600",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=385226600",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w385226600",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.283072,
+          47.131339
+        ]
+      },
+      "properties": {
+        "cartodb_id": 193,
+        "id": "385354453",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=385354453",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w385354453",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.003917,
+          47.060518
+        ]
+      },
+      "properties": {
+        "cartodb_id": 194,
+        "id": "385361476",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=385361476",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w385361476",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.557523,
+          46.757519
+        ]
+      },
+      "properties": {
+        "cartodb_id": 195,
+        "id": "385380456",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=385380456",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w385380456",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.923191,
+          44.867964
+        ]
+      },
+      "properties": {
+        "cartodb_id": 196,
+        "id": "385442456",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=385442456",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w385442456",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.111512,
+          47.16977
+        ]
+      },
+      "properties": {
+        "cartodb_id": 197,
+        "id": "385624642",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=385624642",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w385624642",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.091383,
+          47.158559
+        ]
+      },
+      "properties": {
+        "cartodb_id": 198,
+        "id": "385624643",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=385624643",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w385624643",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.200343,
+          47.236878
+        ]
+      },
+      "properties": {
+        "cartodb_id": 199,
+        "id": "385678853",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=385678853",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w385678853",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.022338,
+          47.211696
+        ]
+      },
+      "properties": {
+        "cartodb_id": 200,
+        "id": "385678856",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=385678856",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w385678856",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.074981,
+          47.221634
+        ]
+      },
+      "properties": {
+        "cartodb_id": 201,
+        "id": "385678857",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=385678857",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w385678857",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.300906,
+          47.334145
+        ]
+      },
+      "properties": {
+        "cartodb_id": 202,
+        "id": "385745946",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=385745946",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w385745946",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.316013,
+          47.081104
+        ]
+      },
+      "properties": {
+        "cartodb_id": 203,
+        "id": "385786155",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=385786155",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w385786155",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.283479,
+          47.071702
+        ]
+      },
+      "properties": {
+        "cartodb_id": 204,
+        "id": "385786289",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=385786289",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w385786289",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.138405,
+          46.935056
+        ]
+      },
+      "properties": {
+        "cartodb_id": 205,
+        "id": "385976950",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=385976950",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w385976950",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.190386,
+          46.944117
+        ]
+      },
+      "properties": {
+        "cartodb_id": 206,
+        "id": "385976952",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=385976952",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w385976952",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.202768,
+          46.97824
+        ]
+      },
+      "properties": {
+        "cartodb_id": 207,
+        "id": "385982712",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=385982712",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w385982712",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.014483,
+          44.437346
+        ]
+      },
+      "properties": {
+        "cartodb_id": 208,
+        "id": "385983947",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=385983947",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w385983947",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.014749,
+          44.437227
+        ]
+      },
+      "properties": {
+        "cartodb_id": 209,
+        "id": "385983948",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=385983948",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w385983948",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.015026,
+          44.437102
+        ]
+      },
+      "properties": {
+        "cartodb_id": 210,
+        "id": "385983949",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=385983949",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w385983949",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.015329,
+          44.436966
+        ]
+      },
+      "properties": {
+        "cartodb_id": 211,
+        "id": "385983950",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=385983950",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w385983950",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.360228,
+          44.905571
+        ]
+      },
+      "properties": {
+        "cartodb_id": 212,
+        "id": "386185389",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=386185389",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w386185389",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.091007,
+          44.393694
+        ]
+      },
+      "properties": {
+        "cartodb_id": 213,
+        "id": "386387254",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=386387254",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w386387254",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.735238,
+          46.955551
+        ]
+      },
+      "properties": {
+        "cartodb_id": 214,
+        "id": "386422104",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=386422104",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w386422104",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.709938,
+          46.931768
+        ]
+      },
+      "properties": {
+        "cartodb_id": 215,
+        "id": "386422793",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=386422793",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w386422793",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.709212,
+          46.890755
+        ]
+      },
+      "properties": {
+        "cartodb_id": 216,
+        "id": "386576521",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=386576521",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w386576521",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.719524,
+          46.89129
+        ]
+      },
+      "properties": {
+        "cartodb_id": 217,
+        "id": "386576522",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=386576522",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w386576522",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.715034,
+          46.891313
+        ]
+      },
+      "properties": {
+        "cartodb_id": 218,
+        "id": "386576523",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=386576523",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w386576523",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.619712,
+          47.197772
+        ]
+      },
+      "properties": {
+        "cartodb_id": 219,
+        "id": "386608366",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=386608366",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w386608366",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.323279,
+          47.200609
+        ]
+      },
+      "properties": {
+        "cartodb_id": 220,
+        "id": "387455085",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=387455085",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w387455085",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.244537,
+          47.085755
+        ]
+      },
+      "properties": {
+        "cartodb_id": 221,
+        "id": "387464716",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=387464716",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w387464716",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.667042,
+          46.420176
+        ]
+      },
+      "properties": {
+        "cartodb_id": 222,
+        "id": "387498754",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=387498754",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w387498754",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.663433,
+          46.422923
+        ]
+      },
+      "properties": {
+        "cartodb_id": 223,
+        "id": "387498756",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=387498756",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w387498756",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.202496,
+          47.098627
+        ]
+      },
+      "properties": {
+        "cartodb_id": 224,
+        "id": "387649181",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=387649181",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w387649181",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.100648,
+          47.158035
+        ]
+      },
+      "properties": {
+        "cartodb_id": 225,
+        "id": "387756664",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=387756664",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w387756664",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.106867,
+          47.17307
+        ]
+      },
+      "properties": {
+        "cartodb_id": 226,
+        "id": "387756668",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=387756668",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w387756668",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.083238,
+          47.189248
+        ]
+      },
+      "properties": {
+        "cartodb_id": 227,
+        "id": "387756671",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=387756671",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w387756671",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.499113,
+          46.831025
+        ]
+      },
+      "properties": {
+        "cartodb_id": 228,
+        "id": "388204342",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=388204342",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w388204342",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.509439,
+          46.833336
+        ]
+      },
+      "properties": {
+        "cartodb_id": 229,
+        "id": "388204344",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=388204344",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w388204344",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.520926,
+          46.824589
+        ]
+      },
+      "properties": {
+        "cartodb_id": 230,
+        "id": "388204345",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=388204345",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w388204345",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.509189,
+          46.833273
+        ]
+      },
+      "properties": {
+        "cartodb_id": 231,
+        "id": "388204348",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=388204348",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w388204348",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.50691,
+          46.818575
+        ]
+      },
+      "properties": {
+        "cartodb_id": 232,
+        "id": "388205080",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=388205080",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w388205080",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.480403,
+          46.827429
+        ]
+      },
+      "properties": {
+        "cartodb_id": 233,
+        "id": "388205083",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=388205083",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w388205083",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.505989,
+          46.821364
+        ]
+      },
+      "properties": {
+        "cartodb_id": 234,
+        "id": "388205086",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=388205086",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w388205086",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.480219,
+          46.830493
+        ]
+      },
+      "properties": {
+        "cartodb_id": 235,
+        "id": "388205089",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=388205089",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w388205089",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.75623,
+          46.500935
+        ]
+      },
+      "properties": {
+        "cartodb_id": 236,
+        "id": "388974787",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=388974787",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w388974787",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.758091,
+          46.498904
+        ]
+      },
+      "properties": {
+        "cartodb_id": 237,
+        "id": "388974788",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=388974788",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w388974788",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.747778,
+          46.498199
+        ]
+      },
+      "properties": {
+        "cartodb_id": 238,
+        "id": "388974789",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=388974789",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w388974789",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.755517,
+          46.499625
+        ]
+      },
+      "properties": {
+        "cartodb_id": 239,
+        "id": "388974799",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=388974799",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w388974799",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.663352,
+          46.477304
+        ]
+      },
+      "properties": {
+        "cartodb_id": 240,
+        "id": "389129474",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=389129474",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w389129474",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.899046,
+          45.362993
+        ]
+      },
+      "properties": {
+        "cartodb_id": 241,
+        "id": "389386747",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=389386747",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w389386747",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.554231,
+          46.478236
+        ]
+      },
+      "properties": {
+        "cartodb_id": 242,
+        "id": "389423057",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=389423057",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w389423057",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.551674,
+          46.478537
+        ]
+      },
+      "properties": {
+        "cartodb_id": 243,
+        "id": "389423059",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=389423059",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w389423059",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.809582,
+          46.541005
+        ]
+      },
+      "properties": {
+        "cartodb_id": 244,
+        "id": "389645909",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=389645909",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w389645909",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.758692,
+          46.512185
+        ]
+      },
+      "properties": {
+        "cartodb_id": 245,
+        "id": "389646079",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=389646079",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w389646079",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.750929,
+          46.538475
+        ]
+      },
+      "properties": {
+        "cartodb_id": 246,
+        "id": "389650402",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=389650402",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w389650402",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.751213,
+          46.538693
+        ]
+      },
+      "properties": {
+        "cartodb_id": 247,
+        "id": "389650403",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=389650403",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w389650403",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.187777,
+          47.11081
+        ]
+      },
+      "properties": {
+        "cartodb_id": 248,
+        "id": "389823081",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=389823081",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w389823081",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.187452,
+          47.111339
+        ]
+      },
+      "properties": {
+        "cartodb_id": 249,
+        "id": "389823082",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=389823082",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w389823082",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.274351,
+          47.126212
+        ]
+      },
+      "properties": {
+        "cartodb_id": 250,
+        "id": "389824377",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=389824377",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w389824377",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.264533,
+          47.114456
+        ]
+      },
+      "properties": {
+        "cartodb_id": 251,
+        "id": "389824539",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=389824539",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w389824539",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.972058,
+          46.724735
+        ]
+      },
+      "properties": {
+        "cartodb_id": 252,
+        "id": "390924179",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=390924179",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w390924179",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.983702,
+          46.709381
+        ]
+      },
+      "properties": {
+        "cartodb_id": 253,
+        "id": "390925050",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=390925050",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w390925050",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.932554,
+          46.665512
+        ]
+      },
+      "properties": {
+        "cartodb_id": 254,
+        "id": "390930866",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=390930866",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w390930866",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.521838,
+          47.000581
+        ]
+      },
+      "properties": {
+        "cartodb_id": 255,
+        "id": "391190188",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=391190188",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w391190188",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.258833,
+          47.003288
+        ]
+      },
+      "properties": {
+        "cartodb_id": 256,
+        "id": "391365468",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=391365468",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w391365468",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.011342,
+          46.981962
+        ]
+      },
+      "properties": {
+        "cartodb_id": 257,
+        "id": "391366489",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=391366489",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w391366489",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.198098,
+          47.210544
+        ]
+      },
+      "properties": {
+        "cartodb_id": 258,
+        "id": "391474508",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=391474508",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w391474508",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.796769,
+          46.4322
+        ]
+      },
+      "properties": {
+        "cartodb_id": 259,
+        "id": "391694675",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=391694675",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w391694675",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.266489,
+          47.23603
+        ]
+      },
+      "properties": {
+        "cartodb_id": 260,
+        "id": "392025455",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=392025455",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w392025455",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.273479,
+          47.235511
+        ]
+      },
+      "properties": {
+        "cartodb_id": 261,
+        "id": "392025456",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=392025456",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w392025456",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.298063,
+          45.378376
+        ]
+      },
+      "properties": {
+        "cartodb_id": 262,
+        "id": "392082390",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=392082390",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w392082390",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.222238,
+          47.867366
+        ]
+      },
+      "properties": {
+        "cartodb_id": 263,
+        "id": "392498014",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=392498014",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w392498014",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.221051,
+          47.860219
+        ]
+      },
+      "properties": {
+        "cartodb_id": 264,
+        "id": "392498032",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=392498032",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w392498032",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.323021,
+          47.282307
+        ]
+      },
+      "properties": {
+        "cartodb_id": 265,
+        "id": "392753042",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=392753042",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w392753042",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.121403,
+          47.204321
+        ]
+      },
+      "properties": {
+        "cartodb_id": 266,
+        "id": "392885198",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=392885198",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w392885198",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.317888,
+          45.85903
+        ]
+      },
+      "properties": {
+        "cartodb_id": 267,
+        "id": "392905543",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=392905543",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w392905543",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.050014,
+          47.287696
+        ]
+      },
+      "properties": {
+        "cartodb_id": 268,
+        "id": "393188101",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=393188101",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w393188101",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.991959,
+          47.255024
+        ]
+      },
+      "properties": {
+        "cartodb_id": 269,
+        "id": "393239146",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=393239146",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w393239146",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.032838,
+          47.239058
+        ]
+      },
+      "properties": {
+        "cartodb_id": 270,
+        "id": "393587950",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=393587950",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w393587950",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.171702,
+          45.845501
+        ]
+      },
+      "properties": {
+        "cartodb_id": 271,
+        "id": "395050868",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=395050868",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w395050868",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.947935,
+          45.832597
+        ]
+      },
+      "properties": {
+        "cartodb_id": 272,
+        "id": "395064637",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=395064637",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w395064637",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.478624,
+          47.681428
+        ]
+      },
+      "properties": {
+        "cartodb_id": 273,
+        "id": "418485116",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=418485116",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w418485116",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.710195,
+          46.519289
+        ]
+      },
+      "properties": {
+        "cartodb_id": 274,
+        "id": "396115443",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=396115443",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w396115443",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.701578,
+          46.510201
+        ]
+      },
+      "properties": {
+        "cartodb_id": 275,
+        "id": "396456852",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=396456852",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w396456852",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.785143,
+          44.44714
+        ]
+      },
+      "properties": {
+        "cartodb_id": 276,
+        "id": "396512116",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=396512116",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w396512116",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.478394,
+          47.126496
+        ]
+      },
+      "properties": {
+        "cartodb_id": 277,
+        "id": "396595299",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=396595299",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w396595299",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.345254,
+          47.762789
+        ]
+      },
+      "properties": {
+        "cartodb_id": 278,
+        "id": "397574890",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=397574890",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w397574890",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.336187,
+          47.74729
+        ]
+      },
+      "properties": {
+        "cartodb_id": 279,
+        "id": "397574891",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=397574891",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w397574891",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.338858,
+          47.845759
+        ]
+      },
+      "properties": {
+        "cartodb_id": 280,
+        "id": "397574892",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=397574892",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w397574892",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.336044,
+          47.857749
+        ]
+      },
+      "properties": {
+        "cartodb_id": 281,
+        "id": "397574894",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=397574894",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w397574894",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.520566,
+          45.149293
+        ]
+      },
+      "properties": {
+        "cartodb_id": 282,
+        "id": "400702503",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=400702503",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w400702503",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.233864,
+          47.915216
+        ]
+      },
+      "properties": {
+        "cartodb_id": 283,
+        "id": "400802201",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=400802201",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w400802201",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.587732,
+          45.640854
+        ]
+      },
+      "properties": {
+        "cartodb_id": 284,
+        "id": "401419479",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=401419479",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w401419479",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.664224,
+          45.104385
+        ]
+      },
+      "properties": {
+        "cartodb_id": 285,
+        "id": "401682074",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=401682074",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w401682074",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.93474,
+          47.43479
+        ]
+      },
+      "properties": {
+        "cartodb_id": 286,
+        "id": "402096849",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=402096849",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w402096849",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.532983,
+          46.072459
+        ]
+      },
+      "properties": {
+        "cartodb_id": 287,
+        "id": "402889209",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=402889209",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w402889209",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.236801,
+          44.071997
+        ]
+      },
+      "properties": {
+        "cartodb_id": 288,
+        "id": "404201361",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=404201361",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w404201361",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.420034,
+          45.181254
+        ]
+      },
+      "properties": {
+        "cartodb_id": 289,
+        "id": "404793316",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=404793316",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w404793316",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.311581,
+          45.730164
+        ]
+      },
+      "properties": {
+        "cartodb_id": 290,
+        "id": "404805406",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=404805406",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w404805406",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.312637,
+          45.729966
+        ]
+      },
+      "properties": {
+        "cartodb_id": 291,
+        "id": "404805489",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=404805489",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w404805489",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.297424,
+          45.738436
+        ]
+      },
+      "properties": {
+        "cartodb_id": 292,
+        "id": "404807349",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=404807349",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w404807349",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.316693,
+          45.73007
+        ]
+      },
+      "properties": {
+        "cartodb_id": 293,
+        "id": "404808115",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=404808115",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w404808115",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.228692,
+          46.690702
+        ]
+      },
+      "properties": {
+        "cartodb_id": 294,
+        "id": "405355325",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=405355325",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w405355325",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.447654,
+          45.181096
+        ]
+      },
+      "properties": {
+        "cartodb_id": 295,
+        "id": "406045914",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=406045914",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w406045914",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.442831,
+          45.195176
+        ]
+      },
+      "properties": {
+        "cartodb_id": 296,
+        "id": "406046625",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=406046625",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w406046625",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.368067,
+          45.245967
+        ]
+      },
+      "properties": {
+        "cartodb_id": 297,
+        "id": "406160492",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=406160492",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w406160492",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.087374,
+          44.504428
+        ]
+      },
+      "properties": {
+        "cartodb_id": 298,
+        "id": "406937488",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=406937488",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w406937488",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.37352,
+          45.109781
+        ]
+      },
+      "properties": {
+        "cartodb_id": 299,
+        "id": "407381443",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=407381443",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w407381443",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.373937,
+          45.109477
+        ]
+      },
+      "properties": {
+        "cartodb_id": 300,
+        "id": "407381444",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=407381444",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w407381444",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.005947,
+          44.588292
+        ]
+      },
+      "properties": {
+        "cartodb_id": 301,
+        "id": "407612940",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=407612940",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w407612940",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.301894,
+          45.724633
+        ]
+      },
+      "properties": {
+        "cartodb_id": 302,
+        "id": "408009864",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=408009864",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w408009864",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.589406,
+          46.724287
+        ]
+      },
+      "properties": {
+        "cartodb_id": 303,
+        "id": "410012619",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=410012619",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w410012619",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.589402,
+          46.724258
+        ]
+      },
+      "properties": {
+        "cartodb_id": 304,
+        "id": "410012620",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=410012620",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w410012620",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.58909,
+          46.724377
+        ]
+      },
+      "properties": {
+        "cartodb_id": 305,
+        "id": "410012621",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=410012621",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w410012621",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.589134,
+          46.7244
+        ]
+      },
+      "properties": {
+        "cartodb_id": 306,
+        "id": "410012622",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=410012622",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w410012622",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.305036,
+          45.718956
+        ]
+      },
+      "properties": {
+        "cartodb_id": 307,
+        "id": "410616340",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=410616340",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w410616340",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.306388,
+          45.719482
+        ]
+      },
+      "properties": {
+        "cartodb_id": 308,
+        "id": "410616415",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=410616415",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w410616415",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.306026,
+          45.718267
+        ]
+      },
+      "properties": {
+        "cartodb_id": 309,
+        "id": "410616530",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=410616530",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w410616530",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.30628,
+          45.718862
+        ]
+      },
+      "properties": {
+        "cartodb_id": 310,
+        "id": "410616600",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=410616600",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w410616600",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.309425,
+          45.718683
+        ]
+      },
+      "properties": {
+        "cartodb_id": 311,
+        "id": "410616602",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=410616602",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w410616602",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.628631,
+          46.782717
+        ]
+      },
+      "properties": {
+        "cartodb_id": 312,
+        "id": "411097210",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=411097210",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w411097210",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.703949,
+          46.480954
+        ]
+      },
+      "properties": {
+        "cartodb_id": 313,
+        "id": "411845087",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=411845087",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w411845087",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.715971,
+          46.475508
+        ]
+      },
+      "properties": {
+        "cartodb_id": 314,
+        "id": "411846647",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=411846647",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w411846647",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.647617,
+          46.78933
+        ]
+      },
+      "properties": {
+        "cartodb_id": 315,
+        "id": "412811350",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=412811350",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w412811350",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.473346,
+          47.685835
+        ]
+      },
+      "properties": {
+        "cartodb_id": 316,
+        "id": "413138952",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=413138952",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w413138952",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.684181,
+          45.743813
+        ]
+      },
+      "properties": {
+        "cartodb_id": 317,
+        "id": "413866770",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=413866770",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w413866770",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.587098,
+          47.473689
+        ]
+      },
+      "properties": {
+        "cartodb_id": 318,
+        "id": "414225581",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=414225581",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w414225581",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.455888,
+          47.678351
+        ]
+      },
+      "properties": {
+        "cartodb_id": 319,
+        "id": "415426847",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=415426847",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w415426847",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.45739,
+          47.686221
+        ]
+      },
+      "properties": {
+        "cartodb_id": 320,
+        "id": "415794652",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=415794652",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w415794652",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.459632,
+          47.685897
+        ]
+      },
+      "properties": {
+        "cartodb_id": 321,
+        "id": "415794653",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=415794653",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w415794653",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.459107,
+          47.687893
+        ]
+      },
+      "properties": {
+        "cartodb_id": 322,
+        "id": "415797231",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=415797231",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w415797231",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.558485,
+          45.66517
+        ]
+      },
+      "properties": {
+        "cartodb_id": 323,
+        "id": "416355549",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=416355549",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w416355549",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.559836,
+          45.665083
+        ]
+      },
+      "properties": {
+        "cartodb_id": 324,
+        "id": "416355607",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=416355607",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w416355607",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.557087,
+          45.665252
+        ]
+      },
+      "properties": {
+        "cartodb_id": 325,
+        "id": "416355619",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=416355619",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w416355619",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.558092,
+          45.66523
+        ]
+      },
+      "properties": {
+        "cartodb_id": 326,
+        "id": "416355622",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=416355622",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w416355622",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.563021,
+          45.663633
+        ]
+      },
+      "properties": {
+        "cartodb_id": 327,
+        "id": "416356411",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=416356411",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w416356411",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.562155,
+          45.663375
+        ]
+      },
+      "properties": {
+        "cartodb_id": 328,
+        "id": "416359146",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=416359146",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w416359146",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.462266,
+          47.693316
+        ]
+      },
+      "properties": {
+        "cartodb_id": 329,
+        "id": "417207441",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=417207441",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w417207441",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.460871,
+          47.665438
+        ]
+      },
+      "properties": {
+        "cartodb_id": 330,
+        "id": "417870674",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=417870674",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w417870674",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.554895,
+          47.664595
+        ]
+      },
+      "properties": {
+        "cartodb_id": 331,
+        "id": "418890103",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=418890103",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w418890103",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.35369,
+          45.143681
+        ]
+      },
+      "properties": {
+        "cartodb_id": 332,
+        "id": "419050322",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=419050322",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w419050322",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.350703,
+          45.142014
+        ]
+      },
+      "properties": {
+        "cartodb_id": 333,
+        "id": "419050323",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=419050323",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w419050323",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.562882,
+          46.074589
+        ]
+      },
+      "properties": {
+        "cartodb_id": 334,
+        "id": "419314509",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=419314509",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w419314509",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.56321,
+          46.079726
+        ]
+      },
+      "properties": {
+        "cartodb_id": 345,
+        "id": "420202025",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=420202025",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w420202025",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.565689,
+          46.077841
+        ]
+      },
+      "properties": {
+        "cartodb_id": 335,
+        "id": "419314510",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=419314510",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w419314510",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.565567,
+          46.076186
+        ]
+      },
+      "properties": {
+        "cartodb_id": 336,
+        "id": "419314511",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=419314511",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w419314511",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.586913,
+          47.998577
+        ]
+      },
+      "properties": {
+        "cartodb_id": 337,
+        "id": "419384399",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=419384399",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w419384399",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.578661,
+          47.999183
+        ]
+      },
+      "properties": {
+        "cartodb_id": 338,
+        "id": "419384400",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=419384400",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w419384400",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.561846,
+          46.068026
+        ]
+      },
+      "properties": {
+        "cartodb_id": 339,
+        "id": "419415607",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=419415607",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w419415607",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.563638,
+          46.074114
+        ]
+      },
+      "properties": {
+        "cartodb_id": 340,
+        "id": "419417777",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=419417777",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w419417777",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.585384,
+          46.070162
+        ]
+      },
+      "properties": {
+        "cartodb_id": 341,
+        "id": "419476444",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=419476444",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w419476444",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.582398,
+          46.066417
+        ]
+      },
+      "properties": {
+        "cartodb_id": 342,
+        "id": "419624289",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=419624289",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w419624289",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.581098,
+          46.078132
+        ]
+      },
+      "properties": {
+        "cartodb_id": 343,
+        "id": "419665649",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=419665649",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w419665649",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.849373,
+          44.847121
+        ]
+      },
+      "properties": {
+        "cartodb_id": 344,
+        "id": "420010288",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=420010288",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w420010288",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.559962,
+          46.078339
+        ]
+      },
+      "properties": {
+        "cartodb_id": 346,
+        "id": "420202026",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=420202026",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w420202026",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.583549,
+          46.084603
+        ]
+      },
+      "properties": {
+        "cartodb_id": 347,
+        "id": "420769486",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=420769486",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w420769486",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.243871,
+          45.043548
+        ]
+      },
+      "properties": {
+        "cartodb_id": 348,
+        "id": "423692931",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=423692931",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w423692931",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.947038,
+          47.049585
+        ]
+      },
+      "properties": {
+        "cartodb_id": 349,
+        "id": "424746049",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=424746049",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w424746049",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.349077,
+          46.17052
+        ]
+      },
+      "properties": {
+        "cartodb_id": 353,
+        "id": "428473173",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=428473173",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w428473173",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.348502,
+          46.162834
+        ]
+      },
+      "properties": {
+        "cartodb_id": 354,
+        "id": "428891632",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=428891632",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w428891632",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.687122,
+          45.044517
+        ]
+      },
+      "properties": {
+        "cartodb_id": 355,
+        "id": "430549592",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=430549592",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w430549592",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.007369,
+          47.768893
+        ]
+      },
+      "properties": {
+        "cartodb_id": 356,
+        "id": "431495775",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=431495775",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w431495775",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.209929,
+          48.10336
+        ]
+      },
+      "properties": {
+        "cartodb_id": 357,
+        "id": "431699433",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=431699433",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w431699433",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.033932,
+          47.299046
+        ]
+      },
+      "properties": {
+        "cartodb_id": 358,
+        "id": "432378835",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=432378835",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w432378835",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.240922,
+          45.739234
+        ]
+      },
+      "properties": {
+        "cartodb_id": 359,
+        "id": "433031469",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=433031469",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w433031469",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.094466,
+          47.355954
+        ]
+      },
+      "properties": {
+        "cartodb_id": 368,
+        "id": "439002391",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=439002391",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w439002391",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.581275,
+          46.831831
+        ]
+      },
+      "properties": {
+        "cartodb_id": 369,
+        "id": "439036029",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=439036029",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w439036029",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.025035,
+          45.847486
+        ]
+      },
+      "properties": {
+        "cartodb_id": 370,
+        "id": "440406060",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=440406060",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w440406060",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.033583,
+          46.862864
+        ]
+      },
+      "properties": {
+        "cartodb_id": 371,
+        "id": "441399975",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=441399975",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w441399975",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.065589,
+          47.171336
+        ]
+      },
+      "properties": {
+        "cartodb_id": 372,
+        "id": "441505439",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=441505439",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w441505439",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.880196,
+          43.988455
+        ]
+      },
+      "properties": {
+        "cartodb_id": 373,
+        "id": "441582225",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=441582225",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w441582225",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.065555,
+          47.189225
+        ]
+      },
+      "properties": {
+        "cartodb_id": 374,
+        "id": "441669533",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=441669533",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w441669533",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.065668,
+          47.190729
+        ]
+      },
+      "properties": {
+        "cartodb_id": 375,
+        "id": "441673467",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=441673467",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w441673467",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.065702,
+          47.190664
+        ]
+      },
+      "properties": {
+        "cartodb_id": 376,
+        "id": "441673468",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=441673468",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w441673468",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.207612,
+          47.82195
+        ]
+      },
+      "properties": {
+        "cartodb_id": 377,
+        "id": "442580783",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=442580783",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w442580783",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.457617,
+          44.934336
+        ]
+      },
+      "properties": {
+        "cartodb_id": 350,
+        "id": "425058776",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=425058776",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w425058776",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.301108,
+          47.411897
+        ]
+      },
+      "properties": {
+        "cartodb_id": 351,
+        "id": "425424749",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=425424749",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w425424749",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.879649,
+          45.684758
+        ]
+      },
+      "properties": {
+        "cartodb_id": 352,
+        "id": "427612032",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=427612032",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w427612032",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.031062,
+          46.860029
+        ]
+      },
+      "properties": {
+        "cartodb_id": 378,
+        "id": "443326718",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=443326718",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w443326718",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.608281,
+          45.655059
+        ]
+      },
+      "properties": {
+        "cartodb_id": 379,
+        "id": "445635247",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=445635247",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w445635247",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.809758,
+          47.366225
+        ]
+      },
+      "properties": {
+        "cartodb_id": 380,
+        "id": "446036935",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=446036935",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w446036935",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.993895,
+          45.220304
+        ]
+      },
+      "properties": {
+        "cartodb_id": 381,
+        "id": "448674045",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=448674045",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w448674045",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.214206,
+          45.411828
+        ]
+      },
+      "properties": {
+        "cartodb_id": 382,
+        "id": "449105280",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=449105280",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w449105280",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.335443,
+          43.620314
+        ]
+      },
+      "properties": {
+        "cartodb_id": 23,
+        "id": "264579525",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=264579525",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w264579525",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.969509,
+          43.854212
+        ]
+      },
+      "properties": {
+        "cartodb_id": 24,
+        "id": "294764402",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=294764402",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w294764402",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.975042,
+          43.854426
+        ]
+      },
+      "properties": {
+        "cartodb_id": 25,
+        "id": "295016995",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=295016995",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w295016995",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.974706,
+          43.854063
+        ]
+      },
+      "properties": {
+        "cartodb_id": 26,
+        "id": "295016996",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=295016996",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w295016996",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.142771,
+          44.812341
+        ]
+      },
+      "properties": {
+        "cartodb_id": 383,
+        "id": "449524359",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=449524359",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w449524359",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.961476,
+          45.006538
+        ]
+      },
+      "properties": {
+        "cartodb_id": 384,
+        "id": "449577085",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=449577085",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w449577085",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.572122,
+          45.389193
+        ]
+      },
+      "properties": {
+        "cartodb_id": 385,
+        "id": "449580392",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=449580392",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w449580392",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.26592,
+          45.550968
+        ]
+      },
+      "properties": {
+        "cartodb_id": 70,
+        "id": "313704516",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=313704516",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w313704516",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.14427,
+          45.772872
+        ]
+      },
+      "properties": {
+        "cartodb_id": 71,
+        "id": "313781965",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=313781965",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w313781965",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.553342,
+          45.669813
+        ]
+      },
+      "properties": {
+        "cartodb_id": 72,
+        "id": "314896997",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=314896997",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w314896997",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.954923,
+          43.84921
+        ]
+      },
+      "properties": {
+        "cartodb_id": 14,
+        "id": "176766811",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=176766811",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w176766811",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.941751,
+          43.813734
+        ]
+      },
+      "properties": {
+        "cartodb_id": 15,
+        "id": "176817548",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=176817548",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w176817548",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.934834,
+          43.799816
+        ]
+      },
+      "properties": {
+        "cartodb_id": 16,
+        "id": "176822462",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=176822462",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w176822462",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.658248,
+          44.056772
+        ]
+      },
+      "properties": {
+        "cartodb_id": 17,
+        "id": "206634125",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=206634125",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w206634125",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.924335,
+          45.291673
+        ]
+      },
+      "properties": {
+        "cartodb_id": 18,
+        "id": "212724629",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=212724629",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w212724629",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.974123,
+          43.856945
+        ]
+      },
+      "properties": {
+        "cartodb_id": 19,
+        "id": "232518487",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=232518487",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w232518487",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.971796,
+          43.832533
+        ]
+      },
+      "properties": {
+        "cartodb_id": 20,
+        "id": "242041850",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=242041850",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w242041850",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.726339,
+          45.844475
+        ]
+      },
+      "properties": {
+        "cartodb_id": 360,
+        "id": "433219256",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=433219256",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w433219256",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.729282,
+          45.850351
+        ]
+      },
+      "properties": {
+        "cartodb_id": 361,
+        "id": "433219609",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=433219609",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w433219609",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.377761,
+          44.572981
+        ]
+      },
+      "properties": {
+        "cartodb_id": 362,
+        "id": "436334213",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=436334213",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w436334213",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.956702,
+          43.847617
+        ]
+      },
+      "properties": {
+        "cartodb_id": 363,
+        "id": "437072406",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=437072406",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w437072406",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.563282,
+          45.6281
+        ]
+      },
+      "properties": {
+        "cartodb_id": 364,
+        "id": "437273586",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=437273586",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w437273586",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.56531,
+          45.627726
+        ]
+      },
+      "properties": {
+        "cartodb_id": 365,
+        "id": "437273587",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=437273587",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w437273587",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.336524,
+          45.109393
+        ]
+      },
+      "properties": {
+        "cartodb_id": 366,
+        "id": "437419928",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=437419928",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w437419928",
+        "type": "Untagged\/Orphan ways"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.515352,
+          45.5117
+        ]
+      },
+      "properties": {
+        "cartodb_id": 367,
+        "id": "437671821",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=437671821",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w437671821",
+        "type": "Untagged\/Orphan ways"
+      }
+    }
+  ]

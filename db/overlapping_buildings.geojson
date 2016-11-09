@@ -1,0 +1,2144 @@
+var overlapping_ways = [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.561705,
+          46.545489
+        ]
+      },
+      "properties": {
+        "cartodb_id": 1,
+        "id": "31530811",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=31530811",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w31530811",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.561705,
+          46.545489
+        ]
+      },
+      "properties": {
+        "cartodb_id": 2,
+        "id": "31530811",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=31530811",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w31530811",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.230336,
+          47.640672
+        ]
+      },
+      "properties": {
+        "cartodb_id": 3,
+        "id": "31591971",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=31591971",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w31591971",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.237375,
+          47.675466
+        ]
+      },
+      "properties": {
+        "cartodb_id": 4,
+        "id": "31592521",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=31592521",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w31592521",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.230336,
+          47.640672
+        ]
+      },
+      "properties": {
+        "cartodb_id": 5,
+        "id": "31593842",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=31593842",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w31593842",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.237375,
+          47.675466
+        ]
+      },
+      "properties": {
+        "cartodb_id": 6,
+        "id": "31596930",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=31596930",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w31596930",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.23133,
+          47.641503
+        ]
+      },
+      "properties": {
+        "cartodb_id": 7,
+        "id": "31598663",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=31598663",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w31598663",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.237819,
+          47.675379
+        ]
+      },
+      "properties": {
+        "cartodb_id": 8,
+        "id": "31603186",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=31603186",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w31603186",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.23133,
+          47.641503
+        ]
+      },
+      "properties": {
+        "cartodb_id": 9,
+        "id": "31604009",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=31604009",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w31604009",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.242531,
+          47.673725
+        ]
+      },
+      "properties": {
+        "cartodb_id": 10,
+        "id": "31605316",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=31605316",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w31605316",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.242531,
+          47.673725
+        ]
+      },
+      "properties": {
+        "cartodb_id": 11,
+        "id": "31605991",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=31605991",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w31605991",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.237819,
+          47.675379
+        ]
+      },
+      "properties": {
+        "cartodb_id": 12,
+        "id": "31606879",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=31606879",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w31606879",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.540105,
+          46.559736
+        ]
+      },
+      "properties": {
+        "cartodb_id": 13,
+        "id": "31997393",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=31997393",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w31997393",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.035797,
+          44.922862
+        ]
+      },
+      "properties": {
+        "cartodb_id": 14,
+        "id": "40549027",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=40549027",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w40549027",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.132315,
+          44.440892
+        ]
+      },
+      "properties": {
+        "cartodb_id": 15,
+        "id": "74951987",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=74951987",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w74951987",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.568566,
+          46.535138
+        ]
+      },
+      "properties": {
+        "cartodb_id": 21,
+        "id": "88004344",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=88004344",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w88004344",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.557522,
+          46.538534
+        ]
+      },
+      "properties": {
+        "cartodb_id": 22,
+        "id": "88242569",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=88242569",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w88242569",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.596892,
+          46.536678
+        ]
+      },
+      "properties": {
+        "cartodb_id": 23,
+        "id": "89582838",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=89582838",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w89582838",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.597244,
+          46.536786
+        ]
+      },
+      "properties": {
+        "cartodb_id": 24,
+        "id": "89582831",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=89582831",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w89582831",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.226766,
+          44.979259
+        ]
+      },
+      "properties": {
+        "cartodb_id": 25,
+        "id": "112859306",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=112859306",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w112859306",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.566692,
+          46.547603
+        ]
+      },
+      "properties": {
+        "cartodb_id": 16,
+        "id": "87791957",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=87791957",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w87791957",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.567053,
+          46.546695
+        ]
+      },
+      "properties": {
+        "cartodb_id": 17,
+        "id": "87791980",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=87791980",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w87791980",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.567911,
+          46.544274
+        ]
+      },
+      "properties": {
+        "cartodb_id": 18,
+        "id": "88180678",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=88180678",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w88180678",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.569342,
+          46.544744
+        ]
+      },
+      "properties": {
+        "cartodb_id": 19,
+        "id": "88180839",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=88180839",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w88180839",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.563966,
+          46.544933
+        ]
+      },
+      "properties": {
+        "cartodb_id": 20,
+        "id": "88000158",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=88000158",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w88000158",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.226766,
+          44.979259
+        ]
+      },
+      "properties": {
+        "cartodb_id": 26,
+        "id": "112859306",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=112859306",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w112859306",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.954304,
+          43.849694
+        ]
+      },
+      "properties": {
+        "cartodb_id": 27,
+        "id": "167182369",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=167182369",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w167182369",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.548579,
+          46.538764
+        ]
+      },
+      "properties": {
+        "cartodb_id": 28,
+        "id": "181129519",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=181129519",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w181129519",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.548786,
+          46.538605
+        ]
+      },
+      "properties": {
+        "cartodb_id": 29,
+        "id": "181129521",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=181129521",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w181129521",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.56323,
+          46.54263
+        ]
+      },
+      "properties": {
+        "cartodb_id": 33,
+        "id": "189517626",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=189517626",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w189517626",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.563308,
+          46.542996
+        ]
+      },
+      "properties": {
+        "cartodb_id": 34,
+        "id": "189517633",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=189517633",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w189517633",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.561379,
+          46.542281
+        ]
+      },
+      "properties": {
+        "cartodb_id": 35,
+        "id": "191228738",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=191228738",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w191228738",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.561537,
+          46.54235
+        ]
+      },
+      "properties": {
+        "cartodb_id": 36,
+        "id": "191228751",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=191228751",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w191228751",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.561537,
+          46.54235
+        ]
+      },
+      "properties": {
+        "cartodb_id": 37,
+        "id": "191228751",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=191228751",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w191228751",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.113512,
+          44.410483
+        ]
+      },
+      "properties": {
+        "cartodb_id": 38,
+        "id": "203367895",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=203367895",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w203367895",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.567481,
+          46.546443
+        ]
+      },
+      "properties": {
+        "cartodb_id": 39,
+        "id": "209285834",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=209285834",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w209285834",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.567481,
+          46.546443
+        ]
+      },
+      "properties": {
+        "cartodb_id": 40,
+        "id": "209285834",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=209285834",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w209285834",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.352923,
+          46.670131
+        ]
+      },
+      "properties": {
+        "cartodb_id": 30,
+        "id": "184883054",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=184883054",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w184883054",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.563526,
+          46.542864
+        ]
+      },
+      "properties": {
+        "cartodb_id": 31,
+        "id": "187644357",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=187644357",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w187644357",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.563274,
+          46.54289
+        ]
+      },
+      "properties": {
+        "cartodb_id": 32,
+        "id": "189517622",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=189517622",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w189517622",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.621682,
+          46.765649
+        ]
+      },
+      "properties": {
+        "cartodb_id": 41,
+        "id": "210311504",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=210311504",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w210311504",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.612359,
+          46.277054
+        ]
+      },
+      "properties": {
+        "cartodb_id": 42,
+        "id": "217792504",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=217792504",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w217792504",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.96411,
+          44.446348
+        ]
+      },
+      "properties": {
+        "cartodb_id": 43,
+        "id": "225579997",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=225579997",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w225579997",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.012821,
+          47.212084
+        ]
+      },
+      "properties": {
+        "cartodb_id": 44,
+        "id": "227569007",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=227569007",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w227569007",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.010309,
+          47.207752
+        ]
+      },
+      "properties": {
+        "cartodb_id": 45,
+        "id": "227671952",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=227671952",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w227671952",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.012739,
+          47.207226
+        ]
+      },
+      "properties": {
+        "cartodb_id": 46,
+        "id": "227671967",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=227671967",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w227671967",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.012783,
+          47.207247
+        ]
+      },
+      "properties": {
+        "cartodb_id": 47,
+        "id": "227672089",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=227672089",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w227672089",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.578343,
+          46.535266
+        ]
+      },
+      "properties": {
+        "cartodb_id": 48,
+        "id": "228730067",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=228730067",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w228730067",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.577572,
+          46.53522
+        ]
+      },
+      "properties": {
+        "cartodb_id": 49,
+        "id": "228730077",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=228730077",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w228730077",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.570338,
+          46.537325
+        ]
+      },
+      "properties": {
+        "cartodb_id": 50,
+        "id": "229103205",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=229103205",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w229103205",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.571371,
+          46.537274
+        ]
+      },
+      "properties": {
+        "cartodb_id": 51,
+        "id": "229222418",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=229222418",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w229222418",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.571371,
+          46.537274
+        ]
+      },
+      "properties": {
+        "cartodb_id": 52,
+        "id": "229222418",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=229222418",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w229222418",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.552046,
+          46.54509
+        ]
+      },
+      "properties": {
+        "cartodb_id": 53,
+        "id": "237089450",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=237089450",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w237089450",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.554618,
+          46.545675
+        ]
+      },
+      "properties": {
+        "cartodb_id": 54,
+        "id": "237302326",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=237302326",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w237302326",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.563099,
+          46.545941
+        ]
+      },
+      "properties": {
+        "cartodb_id": 55,
+        "id": "237604489",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=237604489",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w237604489",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.562556,
+          46.551696
+        ]
+      },
+      "properties": {
+        "cartodb_id": 56,
+        "id": "239199725",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=239199725",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w239199725",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.615822,
+          46.763013
+        ]
+      },
+      "properties": {
+        "cartodb_id": 57,
+        "id": "240933391",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=240933391",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w240933391",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.591811,
+          46.744536
+        ]
+      },
+      "properties": {
+        "cartodb_id": 58,
+        "id": "242578432",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=242578432",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w242578432",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.621682,
+          46.765649
+        ]
+      },
+      "properties": {
+        "cartodb_id": 59,
+        "id": "242950123",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=242950123",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w242950123",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.561287,
+          46.54752
+        ]
+      },
+      "properties": {
+        "cartodb_id": 60,
+        "id": "244194976",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=244194976",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w244194976",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.572393,
+          46.543938
+        ]
+      },
+      "properties": {
+        "cartodb_id": 61,
+        "id": "244562609",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=244562609",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w244562609",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.120245,
+          44.451513
+        ]
+      },
+      "properties": {
+        "cartodb_id": 62,
+        "id": "245151580",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=245151580",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w245151580",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.119681,
+          44.451263
+        ]
+      },
+      "properties": {
+        "cartodb_id": 63,
+        "id": "245151583",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=245151583",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w245151583",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.549279,
+          46.539112
+        ]
+      },
+      "properties": {
+        "cartodb_id": 64,
+        "id": "245883030",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=245883030",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w245883030",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.549455,
+          46.539214
+        ]
+      },
+      "properties": {
+        "cartodb_id": 65,
+        "id": "245883031",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=245883031",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w245883031",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.549569,
+          46.539122
+        ]
+      },
+      "properties": {
+        "cartodb_id": 66,
+        "id": "245883032",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=245883032",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w245883032",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.549393,
+          46.539019
+        ]
+      },
+      "properties": {
+        "cartodb_id": 67,
+        "id": "245883033",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=245883033",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w245883033",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.549712,
+          46.539418
+        ]
+      },
+      "properties": {
+        "cartodb_id": 68,
+        "id": "245883048",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=245883048",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w245883048",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.549412,
+          46.539313
+        ]
+      },
+      "properties": {
+        "cartodb_id": 69,
+        "id": "245883049",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=245883049",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w245883049",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.549766,
+          46.539128
+        ]
+      },
+      "properties": {
+        "cartodb_id": 70,
+        "id": "245883050",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=245883050",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w245883050",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.549246,
+          46.53922
+        ]
+      },
+      "properties": {
+        "cartodb_id": 71,
+        "id": "245883051",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=245883051",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w245883051",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.831599,
+          45.342525
+        ]
+      },
+      "properties": {
+        "cartodb_id": 72,
+        "id": "248208984",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=248208984",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w248208984",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.558941,
+          46.532313
+        ]
+      },
+      "properties": {
+        "cartodb_id": 73,
+        "id": "253837363",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=253837363",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w253837363",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.597648,
+          46.53074
+        ]
+      },
+      "properties": {
+        "cartodb_id": 74,
+        "id": "255677586",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=255677586",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w255677586",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.72032,
+          45.779936
+        ]
+      },
+      "properties": {
+        "cartodb_id": 75,
+        "id": "264697221",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=264697221",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w264697221",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.729206,
+          45.791995
+        ]
+      },
+      "properties": {
+        "cartodb_id": 76,
+        "id": "264702084",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=264702084",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w264702084",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.325452,
+          46.937778
+        ]
+      },
+      "properties": {
+        "cartodb_id": 77,
+        "id": "269342758",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=269342758",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w269342758",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.349397,
+          46.917881
+        ]
+      },
+      "properties": {
+        "cartodb_id": 78,
+        "id": "269343546",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=269343546",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w269343546",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.158692,
+          44.416335
+        ]
+      },
+      "properties": {
+        "cartodb_id": 79,
+        "id": "287710097",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=287710097",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w287710097",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.159403,
+          44.416479
+        ]
+      },
+      "properties": {
+        "cartodb_id": 80,
+        "id": "287710098",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=287710098",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w287710098",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.616768,
+          47.720616
+        ]
+      },
+      "properties": {
+        "cartodb_id": 81,
+        "id": "292747935",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=292747935",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w292747935",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.618625,
+          47.718287
+        ]
+      },
+      "properties": {
+        "cartodb_id": 82,
+        "id": "292747936",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=292747936",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w292747936",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.956736,
+          43.847621
+        ]
+      },
+      "properties": {
+        "cartodb_id": 83,
+        "id": "301766175",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=301766175",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w301766175",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.588117,
+          45.641052
+        ]
+      },
+      "properties": {
+        "cartodb_id": 84,
+        "id": "314375718",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=314375718",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w314375718",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.20536,
+          46.318682
+        ]
+      },
+      "properties": {
+        "cartodb_id": 85,
+        "id": "332214242",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=332214242",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w332214242",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.20536,
+          46.318682
+        ]
+      },
+      "properties": {
+        "cartodb_id": 86,
+        "id": "332214242",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=332214242",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w332214242",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.067295,
+          44.441764
+        ]
+      },
+      "properties": {
+        "cartodb_id": 87,
+        "id": "336910982",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=336910982",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w336910982",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.507643,
+          46.683093
+        ]
+      },
+      "properties": {
+        "cartodb_id": 88,
+        "id": "338040431",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=338040431",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w338040431",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.896038,
+          45.888928
+        ]
+      },
+      "properties": {
+        "cartodb_id": 89,
+        "id": "345875070",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=345875070",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w345875070",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.896118,
+          45.888594
+        ]
+      },
+      "properties": {
+        "cartodb_id": 90,
+        "id": "345875074",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=345875074",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w345875074",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.896111,
+          45.88838
+        ]
+      },
+      "properties": {
+        "cartodb_id": 91,
+        "id": "345875076",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=345875076",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w345875076",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.469301,
+          45.590637
+        ]
+      },
+      "properties": {
+        "cartodb_id": 92,
+        "id": "345890398",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=345890398",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w345890398",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.963081,
+          43.853435
+        ]
+      },
+      "properties": {
+        "cartodb_id": 93,
+        "id": "347170667",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=347170667",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w347170667",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.963342,
+          43.853458
+        ]
+      },
+      "properties": {
+        "cartodb_id": 94,
+        "id": "347170668",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=347170668",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w347170668",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.963232,
+          43.853448
+        ]
+      },
+      "properties": {
+        "cartodb_id": 95,
+        "id": "347170669",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=347170669",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w347170669",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.49398,
+          46.80422
+        ]
+      },
+      "properties": {
+        "cartodb_id": 96,
+        "id": "353191640",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=353191640",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w353191640",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.954801,
+          43.847429
+        ]
+      },
+      "properties": {
+        "cartodb_id": 97,
+        "id": "354135684",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=354135684",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w354135684",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.705128,
+          45.198052
+        ]
+      },
+      "properties": {
+        "cartodb_id": 98,
+        "id": "364026410",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=364026410",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w364026410",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.705484,
+          45.198178
+        ]
+      },
+      "properties": {
+        "cartodb_id": 99,
+        "id": "364026412",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=364026412",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w364026412",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.70582,
+          45.198295
+        ]
+      },
+      "properties": {
+        "cartodb_id": 100,
+        "id": "364026417",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=364026417",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w364026417",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.70582,
+          45.198295
+        ]
+      },
+      "properties": {
+        "cartodb_id": 101,
+        "id": "364026417",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=364026417",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w364026417",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.704675,
+          45.19791
+        ]
+      },
+      "properties": {
+        "cartodb_id": 102,
+        "id": "364026406",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=364026406",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w364026406",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.721783,
+          45.209156
+        ]
+      },
+      "properties": {
+        "cartodb_id": 103,
+        "id": "364026437",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=364026437",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w364026437",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.827311,
+          45.148742
+        ]
+      },
+      "properties": {
+        "cartodb_id": 104,
+        "id": "364502597",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=364502597",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w364502597",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.212212,
+          46.037503
+        ]
+      },
+      "properties": {
+        "cartodb_id": 105,
+        "id": "366652280",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=366652280",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w366652280",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.212216,
+          46.037227
+        ]
+      },
+      "properties": {
+        "cartodb_id": 106,
+        "id": "366652281",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=366652281",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w366652281",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.21237,
+          46.038092
+        ]
+      },
+      "properties": {
+        "cartodb_id": 107,
+        "id": "366652284",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=366652284",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w366652284",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.21261,
+          46.037323
+        ]
+      },
+      "properties": {
+        "cartodb_id": 108,
+        "id": "366652292",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=366652292",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w366652292",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.132615,
+          44.440921
+        ]
+      },
+      "properties": {
+        "cartodb_id": 109,
+        "id": "379128501",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=379128501",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w379128501",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.954356,
+          43.849762
+        ]
+      },
+      "properties": {
+        "cartodb_id": 110,
+        "id": "408162340",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=408162340",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w408162340",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.455706,
+          47.678392
+        ]
+      },
+      "properties": {
+        "cartodb_id": 111,
+        "id": "415427089",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=415427089",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w415427089",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.457478,
+          47.686178
+        ]
+      },
+      "properties": {
+        "cartodb_id": 112,
+        "id": "415794712",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=415794712",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w415794712",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.462137,
+          47.69337
+        ]
+      },
+      "properties": {
+        "cartodb_id": 113,
+        "id": "417207508",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=417207508",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w417207508",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.562529,
+          46.074642
+        ]
+      },
+      "properties": {
+        "cartodb_id": 114,
+        "id": "419314560",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=419314560",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w419314560",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.585333,
+          46.070199
+        ]
+      },
+      "properties": {
+        "cartodb_id": 115,
+        "id": "419476705",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=419476705",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w419476705",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.582395,
+          46.06633
+        ]
+      },
+      "properties": {
+        "cartodb_id": 116,
+        "id": "419624290",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=419624290",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w419624290",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.581106,
+          46.078222
+        ]
+      },
+      "properties": {
+        "cartodb_id": 117,
+        "id": "419665807",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=419665807",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w419665807",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.947,
+          47.049655
+        ]
+      },
+      "properties": {
+        "cartodb_id": 118,
+        "id": "424746157",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=424746157",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w424746157",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.268702,
+          45.753356
+        ]
+      },
+      "properties": {
+        "cartodb_id": 119,
+        "id": "425537540",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=425537540",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w425537540",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.348418,
+          46.16284
+        ]
+      },
+      "properties": {
+        "cartodb_id": 120,
+        "id": "428891641",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=428891641",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w428891641",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.948137,
+          43.848855
+        ]
+      },
+      "properties": {
+        "cartodb_id": 121,
+        "id": "436773048",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=436773048",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w436773048",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.475268,
+          47.684066
+        ]
+      },
+      "properties": {
+        "cartodb_id": 122,
+        "id": "437407816",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=437407816",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w437407816",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.031057,
+          46.860031
+        ]
+      },
+      "properties": {
+        "cartodb_id": 123,
+        "id": "443326750",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=443326750",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w443326750",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.730534,
+          44.392986
+        ]
+      },
+      "properties": {
+        "cartodb_id": 124,
+        "id": "447193002",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=447193002",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w447193002",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.731163,
+          44.392357
+        ]
+      },
+      "properties": {
+        "cartodb_id": 125,
+        "id": "448485265",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=448485265",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w448485265",
+        "type": "Overlapping buildings"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.592261,
+          46.535547
+        ]
+      },
+      "properties": {
+        "cartodb_id": 126,
+        "id": "23591305",
+        "url": "http:\/\/openstreetmap.org\/edit?editor=id&way=23591305",
+        "josm": "http:\/\/localhost:8111\/load_object?new_layer=true&objects=w23591305",
+        "type": "Overlapping buildings"
+      }
+    }
+  ]
